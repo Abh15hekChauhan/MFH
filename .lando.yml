@@ -1,0 +1,7 @@
+name: mfh2
+recipe: wordpress
+config:
+  webroot: .
+services:
+  myservice:
+    type: phpmyadmin

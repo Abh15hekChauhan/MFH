@@ -1,0 +1,28 @@
+.latest_work_slider {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.latest_work_slider .latest_work_item {
+  display: inline-block;
+  width: 33.33%; /* Adjust this value based on the number of items you have */
+  transition: transform 0.5s;
+}
+
+.latest_work_slider .latest_work_item:not(:first-child) {
+  margin-left: -100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.latest_work_slider.animate {
+  animation: slide 5s infinite; /* Adjust the duration as needed */
+}
