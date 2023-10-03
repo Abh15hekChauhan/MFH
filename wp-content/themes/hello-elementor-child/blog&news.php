@@ -23,11 +23,11 @@ $news = array(
 );
 
 $query_news = new WP_Query($news);
-print_r($query_news);
+// print_r($query_news);
 
 ?>
 <!--====== Start Page-title-area section ======-->
-<section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/5.jpg);">
+<section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
     <div class="container">
         <!--======  Page-title-Inner ======-->
         <div class="page-title-inner text-center">
@@ -48,7 +48,6 @@ print_r($query_news);
 
                     <?php
 
-
                     if ($query_blog->have_posts()):
                         for ($i = 0; $i < $query_blog->post_count; $i++):
                             $query_blog->the_post();
@@ -66,13 +65,13 @@ print_r($query_news);
                                     <?php echo $image; ?>
                                 </div>
                                 <div class="entry-content">
-                                    <h3 class="title"><a href="peach blog.html">
+                                    <h3 class="title"><a href="<?php the_permalink();?>">
                                             <?php echo $title; ?>
                                         </a></h3>
                                     <div class="author">
                                         <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images/favicon.ico"
                                             alt="Author Image">
-                                        <h6><span>By</span><a href="peach blog.html">
+                                        <h6><span>By</span><a href="">
                                                 <?php echo $author ?>
                                             </a></h6>
                                     </div>
@@ -131,7 +130,7 @@ print_r($query_news);
                                         <?php echo $image ?>
                                         <div class="post-title-date">
                                             <span class="posted-on"><a href="news/20230430/1.html"><?php echo $modified_publish_date ?></a></span>
-                                            <h6><a href="news/20230430/1.html"><?php echo $title; ?></a></h6>
+                                            <h6><a href="<?php the_permalink();?>"><?php echo $title; ?></a></h6>
                                         </div>
                                     </li>
                                 </ul>
