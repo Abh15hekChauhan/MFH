@@ -55,10 +55,10 @@ $blog_details = get_post_meta(get_the_ID(), 'blog-details', true);
             $info_data = get_post_meta(get_the_ID(), 'information', false);
 
             // echo $custom_field_value;
-            $custom_fields = get_post_custom();
-foreach ($custom_fields as $key => $value) {
-    echo '<p style="color: red;"><strong>' . esc_html($key) . ':</strong> ' . esc_html(implode(', ', $value)) . '</p>';
-}
+//             $custom_fields = get_post_custom();
+// foreach ($custom_fields as $key => $value) {
+//     echo '<p style="color: red;"><strong>' . esc_html($key) . ':</strong> ' . esc_html(implode(', ', $value)) . '</p>';
+// }
             
             if ($fields) {
                 foreach ($fields as $field) {
