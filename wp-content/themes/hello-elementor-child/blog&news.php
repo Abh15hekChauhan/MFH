@@ -54,15 +54,15 @@ $query_news = new WP_Query($news);
                             $title = get_the_title();
                             $author = get_the_author();
                             $description = get_the_content();
-                            // $image_id = get_post_meta(get_the_ID(), 'featured', true);
-                            $image = get_the_post_thumbnail(get_the_ID(), 'full');
-                            $image = preg_replace('/(width|height)="\d*"\s/', '', $image);
+                            $image_id = get_post_meta(get_the_ID(), 'featured', true);
+                            $image = get_the_post_thumbnail_url(get_the_ID());
+                            // $image = preg_replace('/(width|height)="\d*"\s/', '', $image);
                             // Your HTML for each blog post goes here
                             ?>
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp">
                                 <div class="post-thumbnail">
-                                    <?php echo $image; ?>
+                                <img src=" <?php echo strip_tags($image); ?>" alt="Post Image"> 
                                 </div>
                                 <div class="entry-content">
                                     <h3 class="title"><a href="<?php the_permalink();?>">

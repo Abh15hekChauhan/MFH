@@ -6,6 +6,8 @@ $original_publish_date = get_the_date();
 
 // Modify and format the date as desired
 $modified_publish_date = date('j F Y', strtotime($original_publish_date));
+$blog_details = get_post_meta(get_the_ID(), 'blog-details', true);
+
 ?>
 
 <!--====== Start Page-title-area section ======-->
@@ -32,8 +34,8 @@ $modified_publish_date = date('j F Y', strtotime($original_publish_date));
 
             </div>
             <div class="section_title mt-3">
-                <h2><small><?php echo get_the_content();  ?></small></h2><br>
-                <span><?php $modified_publish_date; ?></span>
+                <h2><?php echo strip_tags(get_the_content());  ?></h2><br>
+                <span><?php echo $modified_publish_date; ?></span>
             </div>
 
             <div class="info">
@@ -44,24 +46,19 @@ $modified_publish_date = date('j F Y', strtotime($original_publish_date));
                 </div>
             </div>
 
-            <p class="mt-3">Goat farming is an extremely profitable and sustainable business in India. It is easy and
-                simple farming that can help you earn good income. If you are interested in Goat farming or if you
-                already have goat farming setup but want to increase your business or want to know about how to start
-                organic farming in home then this blog is for you.
-                To get answers to all these questions Mera Farmhouse team went to Sainsowal, Una, Himachal Pradesh to
-                meet Baba Bikriya Wala.
+            <p class="mt-3"><?php echo esc_html($blog_details); ?>
             </p><br>
 
             <?php
 
             $fields = get_post_meta(get_the_ID(), 'faq', true);
-        echo  $info_data = get_post_meta(get_the_ID(), 'information', false);
+            $info_data = get_post_meta(get_the_ID(), 'information', false);
 
             // echo $custom_field_value;
-//             $custom_fields = get_post_custom();
-// foreach ($custom_fields as $key => $value) {
-//     echo '<p style="color: red;"><strong>' . esc_html($key) . ':</strong> ' . esc_html(implode(', ', $value)) . '</p>';
-// }
+            $custom_fields = get_post_custom();
+foreach ($custom_fields as $key => $value) {
+    echo '<p style="color: red;"><strong>' . esc_html($key) . ':</strong> ' . esc_html(implode(', ', $value)) . '</p>';
+}
             
             if ($fields) {
                 foreach ($fields as $field) {
