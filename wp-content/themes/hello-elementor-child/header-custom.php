@@ -262,7 +262,7 @@
                                     <li class="menu-item has-children"><a href="/services">Services</a>
                                        
                                     </li>
-                                    <li class="menu-item has-children"><a href="/solution">Solutions</a>
+                                    <li class="menu-item has-children"><a href="/solutions">Solutions</a>
                                        
                                     </li>
                                     <li class="menu-item has-children"><a href="/expert">Experts</a>
