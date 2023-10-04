@@ -284,12 +284,12 @@
                         <li class="menu-item has-children"><a href="#">Language</a>
                             <ul class="sub-menu">
                                 <li><a href="index.php">English</a></li>
-                                <li><a href="index_hi.php">Hindi</a></li>
-                                <li><a href="index_bi.php">Punjabi</a></li>
+                                <li><a href="index_hi">Hindi</a></li>
+                                <li><a href="index_bi">Punjabi</a></li>
                             </ul>
                         </li>            
         <li class="menu-item has-children">
-            <a href="https://app.mera.farm/accounts/login/?next=/" target="_self" id="loginLink">Login</a>
+            <a href="https://app.mera.farm/" target="_self" id="loginLink">Login</a>
         </li>
 
   

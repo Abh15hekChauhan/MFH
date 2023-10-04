@@ -284,7 +284,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item has-children">
-                                        <a href="#" id="loginLink">Login</a>
+                                        <a href="https://app.mera.farm/" id="loginLink">Login</a>
                                     </li>
                             
                                 <div class="blur" id="blur"></div>
