@@ -2,9 +2,33 @@
 /*
 Template Name: Custom About Page
 */
- get_header('custom'); 
+ get_header('other'); 
  
  ?>
+        <!--====== Favicon Icon ======-->
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico" type="image/png">
+        <!--====== Google Fonts ======-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+        <!--====== Flaticon css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/flaticon/flaticon_gadden.css">
+        <!--====== FontAwesome css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/fontawesome/css/all.min.css">
+        <!--====== Bootstrap css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css">
+        <!--====== magnific-popup css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/magnific-popup.css">
+        <!--====== Slick-popup css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css">
+        <!--====== Jquery UI css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.css">
+        <!--====== Nice Select css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/css/nice-select.css">
+        <!--====== Animate css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/animate.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/default.css">
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
 
 <!--====== Start Page-title-area section ======-->
 <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
