@@ -1,4 +1,10 @@
-        <!--====== Start Preloader ======-->
+<?php
+// Get the current URL
+$currentUrl = $_SERVER['REQUEST_URI'];
+$lastSlug = rtrim($currentUrl, '/');
+
+?>  
+<!--====== Start Preloader ======-->
         <div class="preloader" style="display: none;">
             <div class="loader">
                 <div class="pre-shadow"></div>
@@ -278,9 +284,9 @@
 
                                     <li class="menu-item has-children"><a href="#">Language<span class="dd-trigger"><i class="far fa-angle-down"></i></span></a>
                                         <ul class="sub-menu">
-                                            <li><a href="blogs">English</a></li>
-                                            <li><a href="blog-hi">Hindi</a></li>
-                                            <li><a href="blog-hi">Punjabi</a></li>
+                                        <li><a href="<?php echo $lastSlug ?>">English</a></li>
+                                <li><a href="<?php echo $lastSlug ?>-hi">Hindi</a></li>
+                                <li><a href="<?php echo $lastSlug ?>-bi">Punjabi</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item has-children">

@@ -345,4 +345,3 @@ Template Name: Custom Privacy Page
     </section>
     <!-- End blog_wrap -->
     <?php get_footer('custom'); ?>
-      

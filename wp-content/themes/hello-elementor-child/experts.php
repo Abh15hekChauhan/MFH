@@ -7,7 +7,7 @@ Template Name: Custom Experts Page
  ?>
        
         <!--====== Start Page-title-area section ======-->
-        <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg);">
+        <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/8.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">

@@ -3,10 +3,10 @@
 /*
 Template Name: Custom blog-hi Page
 */
- get_header('custom'); 
+get_header('custom-hi');  
  
  ?>
- <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/5.jpg);">
+ <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
@@ -27,13 +27,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets\images\gallery/prach.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/prach.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                   
                                     <h3 class="title"><a href="peach blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">आड़ू की खेती</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="peach blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">भारत में आड़ू की खेती की संपूर्ण मार्गदर्शिका</font></font></p>
@@ -42,13 +42,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets\images\gallery/GOAT.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/GOAT.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                    
                                     <h3 class="title"><a href="goat blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">बकरी पालन</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="goat blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">हिमाचल में सफल और सबसे स्वच्छ बकरी पालन के बारे में पूरी जानकारी UNA</font></font></p>
@@ -57,13 +57,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets\images\gallery/dairyfarming.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/dairyfarming.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                     
                                     <h3 class="title"><a href="dairy-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">डेरी फार्मिंग</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="dairy-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">एचएफ - जर्सी - और साहीवाल गाय डेयरी फार्म - जहां 100% शुद्ध दूध उपलब्ध है</font></font></p>
@@ -72,13 +72,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets\images\gallery/laser-land.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/laser-land.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                   
                                     <h3 class="title"><a href="GPS-BLOG.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">एग्रीज़ोन जीपीएस लैंड लेवलर</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="GPS-BLOG.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">एग्रीजोन जीपीएस लैंड लेवलर- अब आप कम समय में अधिक मुनाफा कमा सकते हैं</font></font></p>
@@ -87,13 +87,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets\images\gallery/rabit.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/rabit.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                    
                                     <h3 class="title"><a href="rabit-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">खरगोश पालन</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="rabit-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">खरगोश पालन का सही तरीका- आप अच्छी आय कैसे अर्जित कर सकते हैं?</font></font></p>
@@ -102,13 +102,13 @@ Template Name: Custom blog-hi Page
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="post-thumbnail">
-                                    <img src="assets/images/gallery/garlic.jpg" alt="छवि पोस्ट करें">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/garlic.jpg" alt="छवि पोस्ट करें">
                                 </div>
                                 <div class="entry-content">
                                     
                                     <h3 class="title"><a href="garlic-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">लहसुन की खेती</font></font></a></h3>
                                     <div class="author">
-                                        <img src="assets\images/favicon.ico" alt="लेखक छवि">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images/favicon.ico" alt="लेखक छवि">
                                         <h6><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">द्वारा</font></font></span><a href="garlic-blog.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस</font></font></a></h6>
                                     </div>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">इस तरह लहसुन की खेती कर कमाएं 10 लाख तक की कमाई</font></font></p>
@@ -131,7 +131,7 @@ Template Name: Custom blog-hi Page
                             <div class="sidebar-widget widget-post-author mb-40 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="author-img">
                                     <!-- TODO : Add Nikhil's Image Here-->
-                                    <img src="assets\images\gallery/nikhil sir.jpg" alt="निखिल गर्ग प्रोफ़ाइल छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/nikhil sir.jpg" alt="निखिल गर्ग प्रोफ़ाइल छवि">
                                 </div>
                                 <div class="author-content text-center">
                                     <div class="author-title-box">
@@ -152,7 +152,7 @@ Template Name: Custom blog-hi Page
                                     <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">उपकरण एवं मशीनरी की तलाश में!</font></font></h3>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">आप सही जगह पर हैं</font></font></p>
                                     <a href="contact.html" class="main-btn secondary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">संपर्क करें</font></font></a>
-                                    <img src="assets/images/gallery/7.jpg" alt="बैनर छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg" alt="बैनर छवि">
                                 </div>
                             </div>
                             <!--=== Tag Widget ===-->

@@ -43,10 +43,10 @@
                         <div class="widget-content">
                             <ul class="footer-nav">
                                 <!-- TODO : Add the Links to these pages-->
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="solution.html">Solutions</a></li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/services">Our Services</a></li>
+                                <li><a href="/blogs">Blogs</a></li>
+                                <li><a href="/solution">Solutions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -128,9 +128,9 @@
                     <div class="copyright-nav float-lg-right">
                         <ul>
                             <!-- TODO : Add the Links here-->
-                            <li><a href="privacy.html">Privacy</a></li>
-                            <li><a href="term">Terms</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/term">Terms</a></li>
+                            <li><a href="/services">Services</a></li>
                         </ul>
                     </div>
                 </div>

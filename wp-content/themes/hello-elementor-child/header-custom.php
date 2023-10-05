@@ -1,3 +1,11 @@
+<?php
+// Get the current URL
+$currentUrl = $_SERVER['REQUEST_URI'];
+
+// Get the last part (slug)
+$lastSlug = rtrim($currentUrl, '/');
+
+?>
     <head>
         <!--====== Required meta tags ======-->
         <meta charset="utf-8">
@@ -262,7 +270,7 @@
                                     <li class="menu-item has-children"><a href="/services">Services</a>
                                        
                                     </li>
-                                    <li class="menu-item has-children"><a href="/solutions">Solutions</a>
+                                    <li class="menu-item has-children"><a href="/solution">Solutions</a>
                                        
                                     </li>
                                     <li class="menu-item has-children"><a href="/expert">Experts</a>
@@ -283,13 +291,13 @@
    
                         <li class="menu-item has-children"><a href="#">Language</a>
                             <ul class="sub-menu">
-                                <li><a href="index.php">English</a></li>
-                                <li><a href="index_hi">Hindi</a></li>
-                                <li><a href="index_bi">Punjabi</a></li>
+                                <li><a href="<?php echo $lastSlug ?>">English</a></li>
+                                <li><a href="<?php echo $lastSlug ?>-hi">Hindi</a></li>
+                                <li><a href="<?php echo $lastSlug ?>-bi">Punjabi</a></li>
                             </ul>
                         </li>            
         <li class="menu-item has-children">
-            <a href="https://app.mera.farm/" target="_self" id="loginLink">Login</a>
+            <a href= "https://app.mera.farm/" target="_self" id="loginLink">Login</a>
         </li>
 
   
