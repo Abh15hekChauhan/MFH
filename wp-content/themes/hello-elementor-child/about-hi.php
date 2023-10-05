@@ -189,4 +189,4 @@ Template Name: Custom about-hi Page
                 </div>
             </div>
         </section><!--====== End Team Section ======-->
-        <?php get_footer('custom'); ?>
+        <?php get_footer('custom-hi'); ?>

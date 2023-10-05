@@ -109,4 +109,4 @@ get_header('custom-hi');
             </div>
         </div>
     </section>
-    <?php get_footer('custom'); ?>
+    <?php get_footer('custom-hi'); ?>

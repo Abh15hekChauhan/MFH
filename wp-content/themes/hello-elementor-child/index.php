@@ -339,7 +339,7 @@ get_header('custom'); ?>
                     MERA FARM HOUSE is an interface between Farmers, Agriculture researchers, Farm Equipment
                     manufacturers, Advisors on More You Know - More You Grow,
                 </p>
-                <p><b><a class="team-img" href="pawansir.php" target="_blank">Read more...</a></b></p>
+                <p><b><a class="team-img" href="pawansir" target="_blank">Read more...</a></b></p>
 
             </div>
         </div>
@@ -365,7 +365,7 @@ get_header('custom'); ?>
                     more transparency of their thoughts and vision related to farming. It is not easy to make farmer
                     abandon with primitive methods of agriculture and enter into new phase, but with time and technology
                     it can be made easy , reliable , cost efficient to farmers . </p>
-                <p><b><a class="team-img" href="nikhilsir.php" target="_blank">Read more...</a></b></p>
+                <p><b><a class="team-img" href="nikhilsir" target="_blank">Read more...</a></b></p>
 
             </div>
         </div>
@@ -392,7 +392,7 @@ get_header('custom'); ?>
                     aware of the latest advancements in veterinary science, livestock management, and dairy
                     farming machinery.He thought that this is the best way that can help in prosperity and
                     the sustainable growth of the agricultural sector. </p>
-                <p><b><a class="team-img" href="varshny-sir.php" target="_blank">Read more...</a></b></p>
+                <p><b><a class="team-img" href="varshny-sir" target="_blank">Read more...</a></b></p>
 
             </div>
         </div>

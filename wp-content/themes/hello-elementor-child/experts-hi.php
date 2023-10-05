@@ -93,7 +93,7 @@ get_header('custom-hi');
                         <!--====== Single Team Item ======-->
                         <div class="single-team-item mb-50 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="member-img">
-                                <img src="a<?php echo get_stylesheet_directory_uri(); ?>/ssets/images/team/jagtar.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/jagtar.jpg" alt="टीम छवि">
                                
                             </div>
                             <div class="member-info text-center">
@@ -187,7 +187,7 @@ get_header('custom-hi');
                         <!--====== Single Team Item ======-->
                         <div class="single-team-item mb-50 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="member-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/team/ms_chauhan.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/ms_chauhan.jpg" alt="टीम छवि">
                                
                             </div>
                             <div class="member-info text-center">
@@ -201,7 +201,7 @@ get_header('custom-hi');
                         <div class="single-team-item mb-50 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="member-img">
                                 <!-- TODO : Add Image of Dr. Manish Here-->
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/team/manish.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/manish.jpg" alt="टीम छवि">
                                
                             </div>
                             <div class="member-info text-center">
@@ -215,7 +215,7 @@ get_header('custom-hi');
                         <div class="single-team-item mb-50 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="member-img">
                                 <!-- TODO : Add Image of Prof. Ramakrishna -->
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/team/ramakrishna.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/ramakrishna.jpg" alt="टीम छवि">
                                
                             </div>
                             <div class="member-info text-center">
@@ -228,7 +228,7 @@ get_header('custom-hi');
                         <!--====== Single Team Item ======-->
                         <div class="single-team-item mb-50 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="member-img">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/team/rajinder.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/rajinder.jpg" alt="टीम छवि">
                                
                             </div>
                             <div class="member-info text-center">
@@ -267,4 +267,4 @@ get_header('custom-hi');
                
             </div>
         </section><!--====== End Team Section  ======-->
-         <?php get_footer('custom'); ?>
+         <?php get_footer('custom-hi'); ?>

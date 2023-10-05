@@ -42,5 +42,5 @@ get_header('custom-hi');
         </div>
     </section>
     <!-- End blog_wrap -->
-    <?php get_footer('custom'); ?>
+    <?php get_footer('custom-hi'); ?>
 
