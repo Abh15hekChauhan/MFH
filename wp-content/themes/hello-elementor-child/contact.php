@@ -6,13 +6,13 @@ Template Name: Custom Contact Page
  
  ?>
  <!--====== Start Page-title-area section ======-->
- <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/5.jpg);">
+ <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
                     <h1 class="page-title">Contact</h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html">Home</a></span>
+                        <span class="breadcrumb-entry"><a href="/index">Home</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">Contact</span>
                     </div>

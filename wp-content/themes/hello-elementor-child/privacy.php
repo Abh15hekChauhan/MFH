@@ -7,7 +7,7 @@ Template Name: Custom Privacy Page
  ?>
 
         <!--====== Start Page-title-area section ======-->
-        <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/5.jpg);">
+        <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
@@ -345,4 +345,3 @@ Template Name: Custom Privacy Page
     </section>
     <!-- End blog_wrap -->
     <?php get_footer('custom'); ?>
-      

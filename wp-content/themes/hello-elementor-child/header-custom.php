@@ -1,3 +1,11 @@
+<?php
+// Get the current URL
+$currentUrl = $_SERVER['REQUEST_URI'];
+
+// Get the last part (slug)
+$lastSlug = rtrim($currentUrl, '/');
+
+?>
     <head>
         <!--====== Required meta tags ======-->
         <meta charset="utf-8">
@@ -282,14 +290,33 @@
                                     </li>
    
                         <li class="menu-item has-children"><a href="#">Language</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.php">English</a></li>
-                                <li><a href="index_hi.php">Hindi</a></li>
-                                <li><a href="index_bi.php">Punjabi</a></li>
-                            </ul>
+                        <ul class="sub-menu">
+                                    <li><a href="<?php
+                                    if ($lastSlug) {
+                                        echo $lastSlug;
+                                    } else {
+                                        echo '/';
+                                    }
+                                    ?>">English</a>
+                                    </li>
+                                    <li><a href="<?php
+                                    if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                        echo $lastSlug . '-hi';
+                                    } else {
+                                        echo '/index-hi';
+                                    }
+                                    ?>">Hindi</a></li>
+                                    <li><a href="<?php
+                                    if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                        echo $lastSlug . '-bi';
+                                    } else {
+                                        echo $lastSlug . '/index-bi';
+                                    }
+                                    ?>">Punjabi</a></li>
+                                </ul>
                         </li>            
         <li class="menu-item has-children">
-            <a href="https://app.mera.farm/accounts/login/?next=/" target="_self" id="loginLink">Login</a>
+            <a href= "https://app.mera.farm/" target="_self" id="loginLink">Login</a>
         </li>
 
   
