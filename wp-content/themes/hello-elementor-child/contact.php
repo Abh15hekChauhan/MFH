@@ -12,7 +12,7 @@ Template Name: Custom Contact Page
                 <div class="page-title-inner text-center">
                     <h1 class="page-title">Contact</h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="/index">Home</a></span>
+                        <span class="breadcrumb-entry"><a href="/">Home</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">Contact</span>
                     </div>
@@ -134,7 +134,7 @@ Template Name: Custom Contact Page
                                 <span>Soil Testing</span>
                                 <h4 class="title">Book Your Soil
                                     Testing Appointment Today !</h4>
-                                <a href="contact.html" class="main-btn golden-btn">Book Test</a>
+                                <a href="/contact" class="main-btn golden-btn">Book Test</a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ Template Name: Custom Contact Page
                                 <span>Subsidy Enquiry</span>
                                 <h4 class="title">Learn about a Subsidy Scheme !
                                     </h4>
-                                <a href="contact.html" class="main-btn golden-btn">Call & Enquire</a>
+                                <a href="/contact" class="main-btn golden-btn">Call & Enquire</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ Template Name: Custom Contact Page
                                 <span>List Products</span>
                                 <h4 class="title">Want to show your products to farmers ?
                                     </h4>
-                                <a href="contact.html" class="main-btn golden-btn">List Products</a>
+                                <a href="/contact" class="main-btn golden-btn">List Products</a>
                             </div>
                         </div>
                     </div>

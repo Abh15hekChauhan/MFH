@@ -37,7 +37,7 @@ Template Name: Custom About Page
         <div class="page-title-inner text-center">
             <h1 class="page-title">About Us</h1>
             <div class="gd-breadcrumb">
-                <span class="breadcrumb-entry"><a href="index.html">Home</a></span>
+                <span class="breadcrumb-entry"><a href="/">Home</a></span>
                 <span class="separator"></span>
                 <span class="breadcrumb-entry active">About Us</span>
             </div>
@@ -73,7 +73,7 @@ Template Name: Custom About Page
                         <li><i class="far fa-check"></i>Subsidiy Eligibility</li>
                     </ul>
                     <div class="about-button">
-                        <a href="services.html" class="main-btn secondary-btn">Learn More</a>
+                        <a href="/services" class="main-btn secondary-btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ Template Name: Custom About Page
                                     <p>Connecting manufacturers and dealers with each other globally and to improve the
                                         economic stability
                                         of farmers through transparency of agriculture related products.</p>
-                                    <a href="about.html" class="btn-link">Read More<i
+                                    <a href="/about" class="btn-link">Read More<i
                                             class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ Template Name: Custom About Page
                                         latest Artificial Intelligence technology for sustained and developed farming.
                                         It plans in making farming easy and affordable to farmers along with making high
                                         profits.</p>
-                                    <a href="about.html" class="btn-link">Read More<i
+                                    <a href="/about" class="btn-link">Read More<i
                                             class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ Template Name: Custom About Page
                                 <div class="text">
                                     <h3 class="title">Plan & Goals</h3>
                                     <p>Create a cohesive ecosystem for farmers to empower them</p>
-                                    <a href="about.html" class="btn-link">Read More<i
+                                    <a href="/about" class="btn-link">Read More<i
                                             class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@ Template Name: Custom About Page
                         <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                     </div>
                     <div class="member-info text-center">
-                        <h3 class="title"><a href="mentors.html">Dr. Rajendra</a></h3>
+                        <h3 class="title"><a href="/experts">Dr. Rajendra</a></h3>
                         <p>Soil Scientist, KVK Ambala, Haryana</p>
                     </div>
                 </div>
@@ -235,7 +235,7 @@ Template Name: Custom About Page
                         <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                     </div>
                     <div class="member-info text-center">
-                        <h3 class="title"><a href="mentors.html">S. Jaspreet Singh</a></h3>
+                        <h3 class="title"><a href="/experts">S. Jaspreet Singh</a></h3>
                         <p>Soil & Crop Health Expert</p>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ Template Name: Custom About Page
                         <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                     </div>
                     <div class="member-info text-center">
-                        <h3 class="title"><a href="mentors.html">Dr. Vishwas Vikas</a></h3>
+                        <h3 class="title"><a href="/experts">Dr. Vishwas Vikas</a></h3>
                         <p>Director Operations, SKYNET</p>
                     </div>
                 </div>
@@ -257,7 +257,7 @@ Template Name: Custom About Page
                 <div class="experience-box mt-25 mb-40 text-center wow fadeInUp" data-wow-delay=".35s">
                     <h2 class="fill-text">10+</h2>
                     <h4>Experienced Mentors</h4>
-                    <a href="mentors.html" class="btn-link">View All Mentors <i class="far fa-arrow-right"></i></a>
+                    <a href="/experts" class="btn-link">View All Mentors <i class="far fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
