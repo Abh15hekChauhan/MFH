@@ -1,7 +1,7 @@
  
  <?php
 /*
-Template Name: Custom solution-bi Page
+Template Name: Custom solutions-bi Page
 */
 get_header('custom-bi'); 
  
