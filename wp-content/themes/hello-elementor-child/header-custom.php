@@ -290,11 +290,30 @@ $lastSlug = rtrim($currentUrl, '/');
                                     </li>
    
                         <li class="menu-item has-children"><a href="#">Language</a>
-                            <ul class="sub-menu">
-                                <li><a href="<?php echo $lastSlug ?>">English</a></li>
-                                <li><a href="<?php echo $lastSlug ?>-hi">Hindi</a></li>
-                                <li><a href="<?php echo $lastSlug ?>-bi">Punjabi</a></li>
-                            </ul>
+                        <ul class="sub-menu">
+                                    <li><a href="<?php
+                                    if ($lastSlug) {
+                                        echo $lastSlug;
+                                    } else {
+                                        echo '/';
+                                    }
+                                    ?>">English</a>
+                                    </li>
+                                    <li><a href="<?php
+                                    if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                        echo $lastSlug . '-hi';
+                                    } else {
+                                        echo '/index-hi';
+                                    }
+                                    ?>">Hindi</a></li>
+                                    <li><a href="<?php
+                                    if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                        echo $lastSlug . '-bi';
+                                    } else {
+                                        echo $lastSlug . '/index-bi';
+                                    }
+                                    ?>">Punjabi</a></li>
+                                </ul>
                         </li>            
         <li class="menu-item has-children">
             <a href= "https://app.mera.farm/" target="_self" id="loginLink">Login</a>

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Custom solution-hi Page
+Template Name: Custom solutions-hi Page
 */
 get_header('custom-hi'); 
  
