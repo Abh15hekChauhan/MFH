@@ -2,7 +2,7 @@
 /*
 Template Name: Custom about-hi Page
 */
- get_header('custom'); 
+ get_header('custom-hi'); 
  
  ?>
  <!--====== Start Page-title-area section ======-->

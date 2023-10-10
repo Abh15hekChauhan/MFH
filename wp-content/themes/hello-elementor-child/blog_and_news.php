@@ -33,7 +33,7 @@ $query_news = new WP_Query($news);
         <div class="page-title-inner text-center">
             <h1 class="page-title">Blogs & News</h1>
             <div class="gd-breadcrumb">
-                <span class="breadcrumb-entry"><a href="index.html">Home</a></span>
+                <span class="breadcrumb-entry"><a href="/">Home</a></span>
                 <span class="separator"></span>
                 <span class="breadcrumb-entry active">Blogs & News</span>
             </div>
@@ -130,7 +130,7 @@ $query_news = new WP_Query($news);
                                         <?php echo $image ?>
                                         <div class="post-title-date">
                                             <span class="posted-on"><a href="news/20230430/1.html"><?php echo $modified_publish_date ?></a></span>
-                                            <h6><a href="<?php the_permalink();?>"><?php echo $title; ?></a></h6>
+                                            <h6><a href="/blog/goat-farming/"><?php echo $title; ?></a></h6>
                                         </div>
                                     </li>
                                 </ul>
@@ -154,7 +154,7 @@ $query_news = new WP_Query($news);
                             <h3 class="title">Looking For
                                 Tools & Machinery!</h3>
                             <p>You’re in right place</p>
-                            <a href="contact.html" class="main-btn secondary-btn">Contact Us</a>
+                            <a href="/contact" class="main-btn secondary-btn">Contact Us</a>
                             <div class="mt-2"><img
                                     src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tractor2.png"
                                     alt="Banner Image"></div>

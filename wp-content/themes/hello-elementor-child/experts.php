@@ -7,13 +7,13 @@ Template Name: Custom Experts Page
  ?>
        
         <!--====== Start Page-title-area section ======-->
-        <section class="page-title-area text-white bg_cover" style="background-image: url(assets/images/gallery/8.jpg);">
+        <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
                     <h1 class="page-title">Meet The Agri-Experts & Mentors</h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html">Home</a></span>
+                        <span class="breadcrumb-entry"><a href="/">Home</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">Our Experts & Mentors</span>
                     </div>
@@ -40,7 +40,7 @@ Template Name: Custom Experts Page
                                 <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Sardara Singh Johal</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Sardara Singh Johal</a></h3>
                                 <p>Chancellor, Central University Punjab
                                     Prof. of Economics and Sociology, PAU
                                 </p>
@@ -55,7 +55,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Sh. Pawan Mangla</a></h3>
+                                <h3 class="title"><a href="/experts">Sh. Pawan Mangla</a></h3>
                                 <p>Owner Bhagwati Steels
                                     Owner Bhagwati Steel Services
                                 </p>
@@ -70,7 +70,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Prof. AC Varshney</a></h3>
+                                <h3 class="title"><a href="/experts">Prof. AC Varshney</a></h3>
                                 <p>Former Vice-Chancellor DUVASU
                                     Former Dean CAU, Aizwal, Mizoram
                                 </p>
@@ -85,7 +85,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Sh. Dharam Vir</a></h3>
+                                <h3 class="title"><a href="/experts">Sh. Dharam Vir</a></h3>
                                 <p>Retd. IAS Officer, Ex. Cheif Secrectary
                                     & State Election Commissioner,
                                     Haryana, India
@@ -101,7 +101,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Prof. Jagtar Singh</a></h3>
+                                <h3 class="title"><a href="/experts">Prof. Jagtar Singh</a></h3>
                                 <p>Former Professor, HOD Library
                                     and Information Punjabi University, Patiala
                                 </p>
@@ -116,7 +116,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Sh. Kanwar Grewal</a></h3>
+                                <h3 class="title"><a href="/experts">Sh. Kanwar Grewal</a></h3>
                                 <p>Punjabi Sufi Singer and Lyricist
                                 </p>
                             </div>
@@ -130,7 +130,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Sh. Vivek Attray</a></h3>
+                                <h3 class="title"><a href="/experts">Sh. Vivek Attray</a></h3>
                                 <p>Motivational Speaker, Best Selling Author and Columnist</p>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="single-team.html">Dr. AK Singh</a></h3>
+                                <h3 class="title"><a href="/single-team">Dr. AK Singh</a></h3>
                                 <p>Deputy Director General
                                     (Agricultural Extension) ICAR</p>
                             </div>
@@ -157,7 +157,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. RC Aggarwal</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. RC Aggarwal</a></h3>
                                 <p>Deputy Director General
                                     (Agricultural Education) ICAR</p>
                             </div>
@@ -171,7 +171,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Rajbir Singh</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Rajbir Singh</a></h3>
                                 <p>Director, Agricultural Technology
                                     Application Research Institute (ATARI)</p>
                             </div>
@@ -185,7 +185,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Sh. Viresh Bharwa</a></h3>
+                                <h3 class="title"><a href="/experts">Sh. Viresh Bharwa</a></h3>
                                 <p>DGP Punjab</p>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Manmohan Chauhan</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Manmohan Chauhan</a></h3>
                                 <p>Vice-Chancellor of prestigious G.B. Pant University of Agriculture and Technology, Pantnagar</p>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Manish Chatli</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Manish Chatli</a></h3>
                                 <p>ICAR- Central Institute for Research on Goats Makhdoom, Farah, Mathura</p>
                             </div>
                         </div> 
@@ -226,7 +226,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Prof. S. Anantha Ramakrishna</a></h3>
+                                <h3 class="title"><a href="/experts">Prof. S. Anantha Ramakrishna</a></h3>
                                 <p>Director, Central Scientific Instruments Organisation (CSIO)</p>
                             </div>
                         </div>
@@ -239,7 +239,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Rajendra</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Rajendra</a></h3>
                                 <p>Soil Scientist, KVK Ambala, Haryana</p>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ Template Name: Custom Experts Page
                                
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">S. Jaspreet Singh</a></h3>
+                                <h3 class="title"><a href="/experts">S. Jaspreet Singh</a></h3>
                                 <p>Crop & Soil Health Expert</p>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ Template Name: Custom Experts Page
                                 
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">Dr. Vishwas Vikas</a></h3>
+                                <h3 class="title"><a href="/experts">Dr. Vishwas Vikas</a></h3>
                                 <p>Director Operations, SKYNET</p>
                             </div>
                         </div>
