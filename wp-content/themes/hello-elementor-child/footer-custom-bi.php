@@ -11,10 +11,10 @@
                             <div class="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="widget-content">
                                     <div class="footer-logo mb-25">
-                                        <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="ਲੋਗੋ"></a>
+                                        <a href="/index-bi"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="ਲੋਗੋ"></a>
                                     </div>
                                     <p>ਮੇਰਾ ਫਾਰਮਹਾਊਸ ਵਿਸ਼ਵ ਪੱਧਰ 'ਤੇ ਨਿਰਮਾਤਾਵਾਂ ਅਤੇ ਡੀਲਰਾਂ ਨੂੰ ਇੱਕ ਦੂਜੇ ਨਾਲ ਜੋੜਦਾ ਹੈ ਅਤੇ ਇਸਦਾ ਉਦੇਸ਼ ਖੇਤੀਬਾੜੀ ਨਾਲ ਸਬੰਧਤ ਉਤਪਾਦਾਂ ਵਿੱਚ ਪਾਰਦਰਸ਼ਤਾ ਰਾਹੀਂ ਕਿਸਾਨਾਂ ਦੀ ਆਰਥਿਕ ਸਥਿਰਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣਾ ਹੈ।</p>
-                                    <a href="contact.html" class="main-btn filled-btn filled-white">ਸੰਪਰਕ ਕਰੋ</a>
+                                    <a href="/contact-bi" class="main-btn filled-btn filled-white">ਸੰਪਰਕ ਕਰੋ</a>
                                 </div>
                             </div>
                         </div>
@@ -38,13 +38,13 @@
                                 <div class="widget-content">
                                     <ul class="footer-nav">
                                         <!-- TODO : Add the Links to these pages-->
-                                        <li><a href="/about"> 	ਸਾਡੇ ਬਾਰੇ 
+                                        <li><a href="/about-bi"> 	ਸਾਡੇ ਬਾਰੇ 
                                         </a></li>
-                                        <li><a href="/services">ਸੇਵਾਵਾਂ
+                                        <li><a href="/services-bi">ਸੇਵਾਵਾਂ
                                         </a></li>
-                                        <li><a href="/blogs"> ਬਲੌਗ
+                                        <li><a href="/blog-bi"> ਬਲੌਗ
                                         </a></li>
-                                        <li><a href="/solution">ਹੱਲ</a></li>
+                                        <li><a href="/solutions-bi">ਹੱਲ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -126,11 +126,11 @@
                             <div class="copyright-nav float-lg-right">
                                 <ul>
                                     <!-- TODO : Add the Links here-->
-                                    <li><a href="/privacy">ਪ੍ਰਾਈਵੇਸੀ ਪਾਲਿਸੀ
+                                    <li><a href="/privacy-bi">ਪ੍ਰਾਈਵੇਸੀ ਪਾਲਿਸੀ
                                     </a></li>
-                                    <li><a href="/term">ਨਿਯਮ&nbsp;ਅਤੇ&nbsp;ਸ਼ਰਤਾਂ
+                                    <li><a href="/terms-bi">ਨਿਯਮ&nbsp;ਅਤੇ&nbsp;ਸ਼ਰਤਾਂ
                                     </a></li>
-                                    <li><a href="/services">ਸੇਵਾਵਾਂ
+                                    <li><a href="/services-bi">ਸੇਵਾਵਾਂ
                                     </a></li>
                                 </ul>
                             </div>

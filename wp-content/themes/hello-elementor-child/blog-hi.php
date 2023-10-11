@@ -1,7 +1,7 @@
 
 <?php
 /*
-Template Name: Custom blog-hi Page
+Template Name: Custom blogs-hi Page
 */
 get_header('custom-hi');  
  
@@ -151,7 +151,7 @@ get_header('custom-hi');
                                 <div class="banner-content text-white">
                                     <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">उपकरण एवं मशीनरी की तलाश में!</font></font></h3>
                                     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">आप सही जगह पर हैं</font></font></p>
-                                    <a href="contact.html" class="main-btn secondary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">संपर्क करें</font></font></a>
+                                    <a href="/contact-hi" class="main-btn secondary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">संपर्क करें</font></font></a>
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg" alt="बैनर छवि">
                                 </div>
                             </div>

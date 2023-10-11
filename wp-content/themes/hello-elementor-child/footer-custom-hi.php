@@ -11,10 +11,10 @@
                             <div class="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <div class="widget-content">
                                     <div class="footer-logo mb-25">
-                                        <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="प्रतीक चिन्ह"></a>
+                                        <a href="/index-hi"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="प्रतीक चिन्ह"></a>
                                     </div>
                                     <p>मेरा फार्महाउस विश्व स्तर पर निर्माताओं और डीलरों को एक-दूसरे से जोड़ता है और इसका उद्देश्य कृषि संबंधी उत्पादों में पारदर्शिता के माध्यम से किसानों की आर्थिक स्थिरता में सुधार करना है।</p>
-                                    <a href="contact.html" class="main-btn filled-btn filled-white">संपर्क</a>
+                                    <a href="/contact-hi" class="main-btn filled-btn filled-white">संपर्क</a>
                                 </div>
                             </div>
                         </div>
@@ -38,10 +38,10 @@
                                 <div class="widget-content">
                                     <ul class="footer-nav">
                                         <!-- TODO : Add the Links to these pages-->
-                                        <li><a href="/about">हमारे बारे</a></li>
-                                        <li><a href="/services">सेवाएं</a></li>
-                                        <li><a href="/blogs">ब्लॉग</a></li>
-                                        <li><a href="/solution">समाधान</a></li>
+                                        <li><a href="/about-hi">हमारे बारे</a></li>
+                                        <li><a href="/services-hi">सेवाएं</a></li>
+                                        <li><a href="/blogs-hi">ब्लॉग</a></li>
+                                        <li><a href="/solution-hi">समाधान</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -123,9 +123,9 @@
                             <div class="copyright-nav float-lg-right">
                                 <ul>
                                     <!-- TODO : Add the Links here-->
-                                    <li><a href="/privacy">प्राइवेसी पालिसी</a></li>
-                                    <li><a href="/term">नियम और शर्तें</a></li>
-                                    <li><a href="/services">सेवाएं</a></li>
+                                    <li><a href="/privacy-hi">प्राइवेसी पालिसी</a></li>
+                                    <li><a href="/terms-hi">नियम और शर्तें</a></li>
+                                    <li><a href="/services-hi">सेवाएं</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ Template Name: Custom about-hi Page
                     <h1 class="page-title">
                         हमारे बारे में</h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html">
+                        <span class="breadcrumb-entry"><a href="/">
                             घर</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">हमारे बारे में </span>
@@ -32,7 +32,7 @@ Template Name: Custom about-hi Page
                             <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">आपके खेतों के अनुसार एआई सुझाव</font></font></h2>
                         </div>
                         <div class="section-title mb-50 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                            <a href="#" target="_blank"><img src="assets/images/play.png" class="img-fluid"></a>
+                            <a href="#" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -48,7 +48,7 @@ Template Name: Custom about-hi Page
                                 <li><i class="far fa-check"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">सब्सिडी पात्रता</font></font></li>
                             </ul>
                             <div class="about-button">
-                                <a href="services.html" class="main-btn secondary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और अधिक जानें</font></font></a>
+                                <a href="/services" class="main-btn secondary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और अधिक जानें</font></font></a>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ Template Name: Custom about-hi Page
                                         <div class="text">
                                             <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">हमारा विशेष कार्य</font></font></h3>
                                             <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">विश्व स्तर पर निर्माताओं और डीलरों को एक-दूसरे से जोड़ना और कृषि संबंधी उत्पादों की पारदर्शिता के माध्यम से किसानों की आर्थिक स्थिरता में सुधार करना।</font></font></p>
-                                            <a href="about.html" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
+                                            <a href="/about" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ Template Name: Custom about-hi Page
                                         <div class="text">
                                             <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">हमारा नज़रिया</font></font></h3>
                                             <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मेरा फार्महाउस का लक्ष्य निरंतर और विकसित खेती के लिए नवीनतम आर्टिफिशियल इंटेलिजेंस तकनीक के साथ कृषि और उसके संबद्ध क्षेत्रों को बदलना है।</font><font style="vertical-align: inherit;">यह उच्च मुनाफा कमाने के साथ-साथ किसानों के लिए खेती को आसान और किफायती बनाने की योजना बनाने में मदद करेगी।</font></font></p>
-                                            <a href="about.html" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
+                                            <a href="/about" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ Template Name: Custom about-hi Page
                                             <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                                 किसानों को सशक्त बनाने के लिए एक सामंजस्यपूर्ण पारितन्त्र बनाना।
                                                 </font></font></p>
-                                            <a href="about.html" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
+                                            <a href="/about" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">और पढ़ें</font></font><i class="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ Template Name: Custom about-hi Page
                                 <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">डॉ. राजेंद्र</a></h3>
+                                <h3 class="title"><a href="/mentors">डॉ. राजेंद्र</a></h3>
                                 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मृदा वैज्ञानिक, केवीके अम्बाला, हरियाणा</font></font></p>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ Template Name: Custom about-hi Page
                                 <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">एस.जसप्रीत सिंह</font></font></a></h3>
+                                <h3 class="title"><a href="/mentors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">एस.जसप्रीत सिंह</font></font></a></h3>
                                 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">मृदा एवं फसल स्वास्थ्य विशेषज्ञ</font></font></p>
                             </div>
                         </div>
@@ -169,11 +169,11 @@ Template Name: Custom about-hi Page
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-team-item mb-50 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
                             <div class="member-img">
-                                <img src="assets/images/team/vikas.jpg" alt="टीम छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/vikas.jpg" alt="टीम छवि">
                                 <!--<div class="icon-btn"><i class="far fa-plus"></i></div>-->
                             </div>
                             <div class="member-info text-center">
-                                <h3 class="title"><a href="mentors.html">डॉ. विश्वास विकास</a></h3>
+                                <h3 class="title"><a href="/mentors">डॉ. विश्वास विकास</a></h3>
                                 <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">निदेशक संचालन, स्काईनेट</font></font></p>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ Template Name: Custom about-hi Page
                         <div class="experience-box mt-25 mb-40 text-center wow fadeInUp" data-wow-delay=".35s" style="visibility: visible; animation-delay: 0.35s; animation-name: fadeInUp;">
                             <h2 class="fill-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10+</font></font></h2>
                             <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">अनुभवी सलाहकार</font></font></h4>
-                            <a href="mentors.html" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">सभी सलाहकार देखें</font></font><i class="far fa-arrow-right"></i></a>
+                            <a href="/mentors" class="btn-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">सभी सलाहकार देखें</font></font><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

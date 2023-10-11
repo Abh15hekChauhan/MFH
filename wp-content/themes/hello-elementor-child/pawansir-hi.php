@@ -12,7 +12,7 @@ get_header('custom-hi');
                 <div class="page-title-inner text-center">
                     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">सपने</font></font></h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html">होम	</a></span>
+                        <span class="breadcrumb-entry"><a href="/index-hi">होम	</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">नियम और शर्तें</span>
                     </div>
@@ -48,4 +48,4 @@ get_header('custom-hi');
         </div>
     </section>
     <!-- End blog_wrap -->
-    <?php get_footer('custom'); ?>
+    <?php get_footer('custom-hi'); ?>

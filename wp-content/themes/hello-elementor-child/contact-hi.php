@@ -133,7 +133,7 @@ get_header('custom-hi');
                             <div class="info">
                                 <span>मृदा परीक्षण</span>
                                 <h4 class="title">आज ही अपना मृदा परीक्षण अपॉइंटमेंट बुक करें!</h4>
-                                <a href="contact-hi.html" class="main-btn golden-btn">टेस्ट बुक करें</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">टेस्ट बुक करें</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ get_header('custom-hi');
                                 <span>सब्सिडी पूछताछ</span>
                                 <h4 class="title">सब्सिडी योजना के बारे में जानें !
                                     </h4>
-                                <a href="contact-hi.html" class="main-btn golden-btn">कॉल करें और पूछताछ करें</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">कॉल करें और पूछताछ करें</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ get_header('custom-hi');
                             <div class="info">
                                 <span>उत्पादों की सूची बनाएं</span>
                                 <h4 class="title">अपने उत्पादों को किसानों को दिखाना चाहते हैं?</h4>
-                                <a href="contact-hi.html" class="main-btn primary-btn">उत्पादों की सूची बनाएं</a>
+                                <a href="/contact-hi" class="main-btn primary-btn">उत्पादों की सूची बनाएं</a>
                             </div>
                         </div>
                     </div>

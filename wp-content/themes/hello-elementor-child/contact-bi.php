@@ -131,7 +131,7 @@ get_header('custom-bi');
                             <div class="info">
                                 <span>ਮਿੱਟੀ ਦੀ ਜਾਂਚ</span>
                                 <h4 class="title">ਅੱਜ ਹੀ ਆਪਣੀ ਮਿੱਟੀ ਦੀ ਜਾਂਚ ਲਈ ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ!</h4>
-                                <a href="contact-bi.html" class="main-btn golden-btn">ਟੈਸਟ ਬੁੱਕ ਕਰੋ</a>
+                                <a href="/contact-bi" class="main-btn golden-btn">ਟੈਸਟ ਬੁੱਕ ਕਰੋ</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ get_header('custom-bi');
                                 <span>ਸਬਸਿਡੀ ਪੁੱਛਗਿੱਛ</span>
                                 <h4 class="title">ਸਬਸਿਡੀ ਸਕੀਮ ਬਾਰੇ ਜਾਣੋ!
                                     </h4>
-                                <a href="contact-bi.html" class="main-btn golden-btn">ਕਾਲ ਕਰੋ ਅਤੇ ਪੁੱਛਗਿੱਛ ਕਰੋ</a>
+                                <a href="/contact-bi" class="main-btn golden-btn">ਕਾਲ ਕਰੋ ਅਤੇ ਪੁੱਛਗਿੱਛ ਕਰੋ</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ get_header('custom-bi');
                             <div class="info">
                                 <span>ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ</span>
                                 <h4 class="title">ਕਿਸਾਨਾਂ ਨੂੰ ਆਪਣੇ ਉਤਪਾਦ ਦਿਖਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</h4>
-                                <a href="contact-bi.html" class="main-btn primary-btn">ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ</a>
+                                <a href="/contact-bi" class="main-btn primary-btn">ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ</a>
                             </div>
                         </div>
                     </div>
