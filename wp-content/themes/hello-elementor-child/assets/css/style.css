@@ -57,7 +57,7 @@ h6, .comments-area .comment .comment-wrap .comment-author-content span.author-na
 }
 
 .footer-experience-widget .experience-box-two h6, .single-information-item .info span, .single-blog-post .entry-content .author-meta .author h6 span, .single-pricing-item-two .pricing-body .pricing-title h2.price span.duration, .single-pricing-item .pricing-body h2.price span.duration, .single-team-item .member-img .icon-btn, .project-details-wrapper .project-info-widget .info-content h6, .single-counter-item p, .single-process-item .step, .features-thumb-item .content h5.title, .choose-content-box .thumb-content .check-style-one li, .header-two .header-navigation .nav-right-item .lang-dropdown .nice-select .list li, .header-middle .menu-right-item span, .header-navigation .main-menu ul > li > a, .main-btn.golden-btn {
-  color: #000000;
+  color:#000;
 }
 
 .sidebar-panel-wrapper .close:hover, .single-info-item.style-two .info span, .single-testimonial-item-three .testimonial-inner-content .quote-title .title p.position, .single-testimonial-item-three .testimonial-inner-content ul.ratings li i, .social-box ul.social-link li a:hover, .text-white .sub-title {
@@ -937,6 +937,7 @@ button {
   padding: 38px 0;
   text-transform: capitalize;
   line-height: 1;
+  
 }
 .header-navigation .main-menu ul > li > a span.dd-trigger {
   -webkit-margin-start: 5px;
@@ -1057,7 +1058,7 @@ button {
   display: block;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding: 15px 0;
-  color: #000;
+  color:white;
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu {
   width: 100%;
@@ -7603,3 +7604,7 @@ ul.slick-dots li.slick-active {
     font-size: 20px;
     font-weight: bold;
 }
+.header-navigation .main-menu ul > li > a{
+  color:black;
+}
+

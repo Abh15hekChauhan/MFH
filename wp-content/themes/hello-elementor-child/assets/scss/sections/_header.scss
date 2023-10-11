@@ -103,7 +103,7 @@
                             border-radius: 0;
                             line-height: 2.5;
                             margin: 0;
-                            border: 1px dashed #fff;
+                            border: 1px dashed #000;  /* color changed*/
                             border-radius: 5px;
                             @extend %white-color;
                             & i{

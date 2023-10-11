@@ -2,7 +2,7 @@
 /*
 Template Name: Custom About Page
 */
- get_header('other'); 
+ get_header('custom'); 
  
  ?>
         <!--====== Favicon Icon ======-->

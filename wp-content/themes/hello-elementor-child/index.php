@@ -2,7 +2,7 @@
 /*
 Template Name: Custom Home Page
 */
-get_header('custom'); ?>
+get_header('home'); ?>
 
 <section class="banner-section">
     <!--=== Hero Wrapper ===-->
