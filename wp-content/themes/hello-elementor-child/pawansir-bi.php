@@ -3,7 +3,7 @@
 /*
 Template Name: Custom pawansir-bi Page
 */
- get_header('custom'); 
+ get_header('custom-bi'); 
  
  ?>
   <!--====== Start Page-title-area section ======-->

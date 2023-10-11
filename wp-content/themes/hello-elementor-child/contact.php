@@ -170,41 +170,4 @@ Template Name: Custom Contact Page
             </div>
         </section><!--====== End Info Section ======-->
         <!--====== Start Partners Section ======-->
-        <section class="partners-section">
-            <div class="container">
-                <!--=== Partners Slider ===-->
-                <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/2.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/4.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/6.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                    <div class="single-partner-item">
-                        <div class="partner-img">
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg" alt="Partner Image"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!--====== End Partners Section ======-->
         <?php get_footer('custom'); ?>

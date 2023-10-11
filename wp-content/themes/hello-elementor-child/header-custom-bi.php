@@ -311,10 +311,10 @@ $lastSlug = rtrim($currentUrl, '/');
                                 <li class="menu-item has-children"><a href="/services">ਸੇਵਾਵਾਂ</a>
 
                                 </li>
-                                <li class="menu-item has-children"><a href="/solution">ਹੱਲ</a>
+                                <li class="menu-item has-children"><a href="/solutions">ਹੱਲ</a>
 
                                 </li>
-                                <li class="menu-item has-children"><a href="/expert">ਮਾਹਿਰ</a>
+                                <li class="menu-item has-children"><a href="/experts">ਮਾਹਿਰ</a>
 
                                 </li>
                                 <li class="menu-item has-children"><a href="/blogs">ਬਲੌਗ & ਖ਼ਬਰਾਂ</a>

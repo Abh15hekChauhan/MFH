@@ -2,7 +2,7 @@
 /*
 Template Name: Custom Solutions Page
 */
-get_header('other');
+get_header('custom');
 
 ?>
 
