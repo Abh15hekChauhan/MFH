@@ -123,12 +123,12 @@ Template Name: Custom Contact Page
             </div>
         </section><!--====== End Contact section ======-->
         <!--====== Start Info Section ======-->
-        <section class="info-section pb-60">
+        <!-- <section class="info-section pb-60">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6"> -->
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-one mb-40 wow fadeInUp">
+                        <!-- <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>Soil Testing</span>
@@ -138,9 +138,9 @@ Template Name: Custom Contact Page
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6"> -->
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-two mb-40 wow fadeInDown">
+                        <!-- <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>Subsidy Enquiry</span>
@@ -151,9 +151,9 @@ Template Name: Custom Contact Page
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6">
+                    <div class="col-xl-4 col-md-6">-->
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-two mb-40 wow fadeInDown">
+                        <!--<div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>List Products</span>
@@ -168,6 +168,7 @@ Template Name: Custom Contact Page
                        
                 </div>
             </div>
-        </section><!--====== End Info Section ======-->
+        </section> -->
+        <!--====== End Info Section ======-->
         <!--====== Start Partners Section ======-->
         <?php get_footer('custom'); ?>

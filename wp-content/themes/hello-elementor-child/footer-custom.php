@@ -12,13 +12,13 @@
                     <div class="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInUp">
                         <div class="widget-content">
                             <div class="footer-logo mb-25">
-                                <a href="index.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="Logo"></a>
+                                <a href="/index"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="Logo"></a>
                             </div>
                             <p>Mera Farmhouse connects manufacturers and dealers with each other globally and aims at
                                 improving the
                                 economic stability of the farmers through transparency in agriculture related products.
                             </p>
-                            <a href="contact.html" class="main-btn filled-btn filled-white">Contact</a>
+                            <a href="/contact" class="main-btn filled-btn filled-white">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                                 <li><a href="/about">About Us</a></li>
                                 <li><a href="/services">Our Services</a></li>
                                 <li><a href="/blogs">Blogs</a></li>
-                                <li><a href="/solution">Solutions</a></li>
+                                <li><a href="/solutions">Solutions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                         <ul>
                             <!-- TODO : Add the Links here-->
                             <li><a href="/privacy">Privacy</a></li>
-                            <li><a href="/term">Terms</a></li>
+                            <li><a href="/terms">Terms</a></li>
                             <li><a href="/services">Services</a></li>
                         </ul>
                     </div>

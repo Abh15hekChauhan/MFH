@@ -11,7 +11,7 @@ get_header('custom-hi');
                 <div class="page-title-inner text-center">
                     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">प्राइवेसी पालिसी</font></font></h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">होम</font></font></a></span>
+                        <span class="breadcrumb-entry"><a href="/index-hi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">होम</font></font></a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">प्राइवेसी पालिसी</font></font></span>
                     </div>

@@ -90,17 +90,25 @@ $query_news = new WP_Query($news);
                         <?php
                     endif;
                     ?>
-
-
-
-                    <ul class="gadden-pagination mb-40 wow fadeInUp text-center">
+                    <!-- <ul class="gadden-pagination mb-40 wow fadeInUp text-center">
                         <li><a href="#"><i class="far fa-angle-double-left"></i></a></li>
                         <li><a href="#">01</a></li>
                         <li><a href="#">02</a></li>
                         <li><a href="#">03</a></li>
                         <li><a href="#">04</a></li>
                         <li><a href="#"><i class="far fa-angle-double-right"></i></a></li>
-                    </ul>
+                    </ul> -->
+                    <div class="pagination mt-5" id="pagination">
+                <a id="previousBtn" href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a id="nextBtn" href="#">&raquo;</a>
+              </div>
+
                 </div>
             </div>
             <div class="col-xl-4 col-lg-5">
@@ -175,7 +183,34 @@ $query_news = new WP_Query($news);
         </div>
     </div>
 </section>
+<!-- <script>
+  var currentPage = 2; // Current page number
+  var pagination = document.getElementById('pagination');
+  var links = pagination.getElementsByTagName('a');
+  var previousBtn = document.getElementById('previousBtn');
+  var nextBtn = document.getElementById('nextBtn');
 
+  // Function to update the pagination links
+  function updatePagination() {
+    for (var i = 1; i < links.length - 1; i++) {
+      links[i].textContent = currentPage + i - 2;
+    }
+  }
+
+  // Event listener for next button
+  nextBtn.addEventListener('click', function(event) {
+    currentPage++; // Increment the current page number
+    updatePagination(); // Update the pagination links
+  });
+
+  // Event listener for previous button
+  previousBtn.addEventListener('click', function(event) {
+    if (currentPage > 1) {
+      currentPage--; // Decrement the current page number if greater than 1
+      updatePagination(); // Update the pagination links
+    }
+  });
+</script>  -->
 
 <!--====== Start Partners Section ======-->
 <?php get_footer('custom'); ?>

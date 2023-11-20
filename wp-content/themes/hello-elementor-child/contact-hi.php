@@ -128,12 +128,12 @@ get_header('custom-hi');
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-one mb-40 wow fadeInUp">
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>मृदा परीक्षण</span>
                                 <h4 class="title">आज ही अपना मृदा परीक्षण अपॉइंटमेंट बुक करें!</h4>
-                                <a href="contact-hi.html" class="main-btn golden-btn">टेस्ट बुक करें</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">टेस्ट बुक करें</a>
                             </div>
                         </div>
                     </div>
@@ -145,18 +145,18 @@ get_header('custom-hi');
                                 <span>सब्सिडी पूछताछ</span>
                                 <h4 class="title">सब्सिडी योजना के बारे में जानें !
                                     </h4>
-                                <a href="contact-hi.html" class="main-btn golden-btn">कॉल करें और पूछताछ करें</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">कॉल करें और पूछताछ करें</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-three mb-40 wow fadeInUp">
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-2.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>उत्पादों की सूची बनाएं</span>
                                 <h4 class="title">अपने उत्पादों को किसानों को दिखाना चाहते हैं?</h4>
-                                <a href="contact-hi.html" class="main-btn primary-btn">उत्पादों की सूची बनाएं</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">उत्पादों की सूची बनाएं</a>
                             </div>
                         </div>
                     </div>
@@ -164,10 +164,10 @@ get_header('custom-hi');
             </div>
         </section><!--====== End Info Section ======-->
         <!--====== Start Partners Section ======-->
-        <section class="partners-section">
-            <div class="container">
+        <!-- <section class="partners-section">
+            <div class="container"> -->
                 <!--=== Partners Slider ===-->
-                <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
+                <!-- <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
                     <div class="single-partner-item">
                         <div class="partner-img">
                             <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" alt="Partner Image"></a>
@@ -199,6 +199,7 @@ get_header('custom-hi');
                         </div>
                     </div>
                 </div>
-            </div>
-        </section><!--====== End Partners Section ======-->
+            </div> -->
+        <!-- </section> -->
+        <!--====== End Partners Section ======-->
           <?php get_footer('custom-hi'); ?>

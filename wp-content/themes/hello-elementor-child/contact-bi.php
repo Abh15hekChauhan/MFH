@@ -126,12 +126,12 @@ get_header('custom-bi');
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-one mb-40 wow fadeInUp">
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>ਮਿੱਟੀ ਦੀ ਜਾਂਚ</span>
                                 <h4 class="title">ਅੱਜ ਹੀ ਆਪਣੀ ਮਿੱਟੀ ਦੀ ਜਾਂਚ ਲਈ ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ!</h4>
-                                <a href="contact-bi.html" class="main-btn golden-btn">ਟੈਸਟ ਬੁੱਕ ਕਰੋ</a>
+                                <a href="/contact-bi" class="main-btn golden-btn">ਟੈਸਟ ਬੁੱਕ ਕਰੋ</a>
                             </div>
                         </div>
                     </div>
@@ -143,18 +143,18 @@ get_header('custom-bi');
                                 <span>ਸਬਸਿਡੀ ਪੁੱਛਗਿੱਛ</span>
                                 <h4 class="title">ਸਬਸਿਡੀ ਸਕੀਮ ਬਾਰੇ ਜਾਣੋ!
                                     </h4>
-                                <a href="contact-bi.html" class="main-btn golden-btn">ਕਾਲ ਕਰੋ ਅਤੇ ਪੁੱਛਗਿੱਛ ਕਰੋ</a>
+                                <a href="/contact-bi" class="main-btn golden-btn">ਕਾਲ ਕਰੋ ਅਤੇ ਪੁੱਛਗਿੱਛ ਕਰੋ</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-three mb-40 wow fadeInUp">
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-2.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ</span>
                                 <h4 class="title">ਕਿਸਾਨਾਂ ਨੂੰ ਆਪਣੇ ਉਤਪਾਦ ਦਿਖਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</h4>
-                                <a href="contact-bi.html" class="main-btn primary-btn">ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ</a>
+                                <a href="/contact-bi" class="main-btn golden-btn">ਉਤਪਾਦਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ</a>
                             </div>
                         </div>
                     </div>
@@ -162,10 +162,10 @@ get_header('custom-bi');
             </div>
         </section><!--====== End Info Section ======-->
         <!--====== Start Partners Section ======-->
-        <section class="partners-section">
-            <div class="container">
+        <!-- <section class="partners-section">
+            <div class="container"> -->
                 <!--=== Partners Slider ===-->
-                <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
+                <!-- <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
                     <div class="single-partner-item">
                         <div class="partner-img">
                             <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" alt="Partner Image"></a>
@@ -198,5 +198,6 @@ get_header('custom-bi');
                     </div>
                 </div>
             </div>
-        </section><!--====== End Partners Section ======-->
+        </section> -->
+        <!--====== End Partners Section ======-->
         <?php get_footer('custom-bi'); ?>

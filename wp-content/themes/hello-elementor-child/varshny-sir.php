@@ -29,7 +29,7 @@ Template Name: Custom varshny-sir Page
         <!--====== Style css ======-->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
          <!--====== Start Page-title-area section ======-->
-         <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/gallery/5.jpg);">
+         <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
@@ -45,12 +45,19 @@ Template Name: Custom varshny-sir Page
 
         <!-- start blog_wrap -->
   <!-- start blog_wrap -->
+  <div class="image-contient mt-4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/varshney.jpeg" alt="Description of the image">
+        </div>
     <section class="blog_wrap pt_90">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cus_pad_left">
                     <div class="blog_content blog_single_content pb_100">
                         <div class="blog_single_item wow fadeInUp">
+                        <h3 class="text-center mt-3">
+                        Prof. AC Varshney</h3>
+                            <h5 class="text-center">
+                            Executive Director</h5><br>
                             <br>
                             <h3>Prof. AC Varshney Vision: Empowering Farmers with Trustworthy Livestock Information </h3><br>
                             <p>Prof. AC Varshney, Former Vice-Chancellor DUVASU, Mathura, UP and Former Dean CAU, Aizwal, Mizoram 

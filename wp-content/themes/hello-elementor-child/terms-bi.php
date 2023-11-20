@@ -11,7 +11,7 @@ get_header('custom-bi');
                 <div class="page-title-inner text-center">
                     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ਸ਼ਰਤਾਂ</font></font></h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ਘਰ</font></font></a></span>
+                        <span class="breadcrumb-entry"><a href="/index-bi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ਘਰ</font></font></a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ਸ਼ਰਤਾਂ</font></font></span>
                     </div>

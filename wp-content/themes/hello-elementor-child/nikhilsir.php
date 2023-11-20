@@ -21,6 +21,9 @@ Template Name: Custom nikhilsir Page
         </section>
 
         <!-- start blog_wrap -->
+        <div class="image-contient mt-4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/nikhil sir.jpg" alt="Description of the image">
+        </div>
     <section class="blog_wrap pt_90">
         <div class="container">
             <div class="row">
@@ -31,7 +34,7 @@ Template Name: Custom nikhilsir Page
                            <p class="about_para mt-5"><br>                      
                            
                              <h4 class="text-center">Nikhil Garg</h4>
-                             <h5 class="text-center">CEO & Founder</h5><br>
+                             <h5 class="text-center">CEO & Co-Founder</h5><br>
                            <p> Being from a family deeply connected with farmers , I grew up feeling their hustle and problems which connects me with Farmers so well. The problems connected with farming are deep rooted and need advancements in many areas to make it a better platform to earn and motivate youth to choose agriculture as their profession. With deep study of 3 years knowing the psychology of farmers and problems associated with current farming , I decided to transform the idea or vision of farming to a new sustained developed position. Day to day interaction with farmers helps adding up to scaling more transparency of their thoughts and vision related to farming. It is not easy to make farmer abandon with primitive methods of agriculture and enter into new phase, but with time and technology it can be made easy , reliable , cost efficient to farmers . With the help of Artificial Intelligence , I dream of bringing an agricultural revolution in India and make farmers debt free and earn maximum profits .
                         </p><br>
                         </div>

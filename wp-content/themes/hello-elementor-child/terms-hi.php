@@ -1,17 +1,17 @@
-   <?php
+<?php
 /*
 Template Name: Custom terms-hi Page
 */
- get_header('custom-hi'); 
- 
- ?>
+get_header('custom-hi');
+
+?>
     <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">
                     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">नियम और शर्तें</font></font></h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">होम	</font></font></a></span>
+                        <span class="breadcrumb-entry"><a href="/index-hi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">होम	</font></font></a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">नियम और शर्तें</font></font></span>
                     </div>

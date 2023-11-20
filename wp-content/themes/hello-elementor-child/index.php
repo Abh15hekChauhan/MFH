@@ -310,7 +310,8 @@ get_header('home'); ?>
             </div>
         </div>
     </div>
-</section><!--====== End Services Section ======-->
+</section>
+<!--====== End Services Section ======-->
 <!--====== Start Project Section ======-->
 <!--------------------------------------------------------------------------------------------------->
 <!--=== Author Widget ===-->
@@ -325,7 +326,8 @@ get_header('home'); ?>
                 <div class="author-title-box">
                     <h4>Pawan Mangla</h4>
                     <span class="posiiton">
-                        Managing Director</span>
+                        Managing Director & Co
+                        -Founder</span>
                 </div>
                 <p style="text-align: justify;">I started my journey from a small town of PUNJAB ‘MAUR MANDI’ with a
                     very humble background to reach my present level as the Owner of M/s. Bhagwati Steel Sales
@@ -348,12 +350,12 @@ get_header('home'); ?>
         <div class="sidebar-widget widget-post-author mb-40 wow fadeInUp">
             <div class="author-img">
                 <!-- TODO : Add Nikhil's Image Here-->
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/nikhil sir.jpg" alt="Nikhil Garg Profile Image" class="nikli">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/nikhil sir.jpg" alt="Nikhil Garg Profile Image" class="nikli">
             </div>
             <div class="author-content text-center">
                 <div class="author-title-box">
                     <h4>Nikhil Garg</h4>
-                    <span class="posiiton">CEO & Founder</span>
+                    <span class="posiiton">CEO & Co-Founder</span>
                 </div>
                 <p style="text-align: justify;">Being from a family deeply connected with farmers , I grew up feeling
                     their hustle and problems
@@ -366,7 +368,6 @@ get_header('home'); ?>
                     abandon with primitive methods of agriculture and enter into new phase, but with time and technology
                     it can be made easy , reliable , cost efficient to farmers . </p>
                 <p><b><a class="team-img" href="nikhilsir" target="_blank">Read more...</a></b></p>
-
             </div>
         </div>
     </div>
@@ -374,7 +375,7 @@ get_header('home'); ?>
         <div class="sidebar-widget widget-post-author mb-40 wow fadeInUp">
             <div class="author-img">
                 <!-- TODO : Add Nikhil's Image Here-->
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\team/varshney.jpeg" alt="Nikhil Garg Profile Image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/varshney.jpeg" alt="Nikhil Garg Profile Image">
             </div>
             <div class="author-content text-center">
                 <div class="author-title-box">
@@ -456,7 +457,7 @@ get_header('home'); ?>
                 <div class="experience-box mt-25 mb-40 text-center wow fadeInUp" data-wow-delay=".35s">
                     <h2 class="fill-text">10+</h2>
                     <h4>Experienced Mentors</h4>
-                    <a href="mentors.php" class="btn-link">View All Mentors <i class="far fa-arrow-right"></i></a>
+                    <a href="/experts" class="btn-link">View All Mentors <i class="far fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -472,14 +473,12 @@ get_header('home'); ?>
             <div class="single-project-item-four">
                 <div class="project-img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/service/2.jpeg" alt="Project Image">
-
                 </div>
             </div>
             <!--====== Project Item ======-->
             <div class="single-project-item-four">
                 <div class="project-img">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/service/5.jpeg" alt="Project Image">
-
                 </div>
             </div>
             <!--====== Project Item ======-->

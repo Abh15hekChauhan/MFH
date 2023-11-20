@@ -348,24 +348,24 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children"><a href="/">Home</a>
 
                             </li>
-                            <li class="menu-item"><a href="about">About</a></li>
-                            <li class="menu-item has-children"><a href="services">Services</a>
+                            <li class="menu-item"><a href="/about">About</a></li>
+                            <li class="menu-item has-children"><a href="/services">Services</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="solution">Solutions</a>
+                            <li class="menu-item has-children"><a href="/solution">Solutions</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="mentors">Experts</a>
+                            <li class="menu-item has-children"><a href="/experts">Experts</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="blogs">Blogs&News</a>
+                            <li class="menu-item has-children"><a href="/blogs">Blogs&News</a>
 
                             </li>
 
-                            <li class="menu-item has-children"><a href="privacy">Privacy</a>
+                            <li class="menu-item has-children"><a href="/privacy">Privacy</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="terms">Terms</a>
+                            <li class="menu-item has-children"><a href="/terms">Terms</a>
 
                             </li>
 
@@ -405,24 +405,18 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children">
                                 <a href="https://app.mera.farm/" id="loginLink">Login</a>
                             </li>
-
-                            <div class="blur" id="blur"></div>
-                            <div class="popup" id="popup">
-                                <p class="para">Please login to our website.</p>
-                                <button class="btn btn-primary mt-3" id="closeButton">Close</button>
-                            </div>
                         </ul>
                     </nav>
                     <!--====== Menu Button ======-->
                     <div class="menu-button mt-40 d-xl-none">
-                        <a href="contact" class="main-btn secondary-btn">Contact</a>
+                        <a href="/contact" class="main-btn secondary-btn">Contact</a>
                     </div>
                 </div>
                 <!--====== Nav Right Item ======-->
                 <div class="nav-right-item">
 
                     <div class="menu-button d-xl-block d-none">
-                        <a href="contact" class="main-btn primary-btn">Contact</a>
+                        <a href="/contact" class="main-btn primary-btn">Contact</a>
                     </div>
                     <div class="navbar-toggler">
                         <span></span>
@@ -433,3 +427,4 @@ $lastSlug = rtrim($currentUrl, '/');
             </div>
         </div>
     </div>
+</header>

@@ -12,7 +12,7 @@ get_header('custom-hi');
                 <div class="page-title-inner text-center">
                     <h1 class="page-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">सपने</font></font></h1>
                     <div class="gd-breadcrumb">
-                        <span class="breadcrumb-entry"><a href="index.html">होम	</a></span>
+                        <span class="breadcrumb-entry"><a href="/index-hi">होम	</a></span>
                         <span class="separator"></span>
                         <span class="breadcrumb-entry active">नियम और शर्तें</span>
                     </div>
@@ -21,6 +21,12 @@ get_header('custom-hi');
         </section>
 
         <!-- start blog_wrap -->
+        <div class="image-contient mt-4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pawan.jpeg" alt="Description of the image">
+        </div>
+        <!-- <div class="image-contient mt-4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pawan.jpeg" alt="Description of the image">
+        </div> -->
     <section class="blog_wrap pt_90">
         <div class="container">
             <div class="row">
@@ -31,7 +37,8 @@ get_header('custom-hi');
                             <h3 class="text-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                               पवन मंगला</font></font></h3>
                             <h5 class="text-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                प्रबंध निदेशक</font></font></h5><br>
+                                प्रबंध निदेशक व सह संस्थापक
+                                      </font></font></h5><br>
                            <p class="justify-content-center">ऍम/एस भगवती स्टील सेल्स-टाटा स्टील के वितरक उद्योग के मालिक के रूप में अपने वर्तमान स्तर तक पहुंचने के लिए मैंने एक बहुत ही साधारण पृष्ठभूमि के साथ पंजाब के एक छोटे से शहर 'मौर मंडी' से अपनी यात्रा की सेवा शुरू करते हैं जो मुख्य रूप से मेरे किसान भाइयों के लिए कृषि उपकरण बनाती है।। 
                             कृषि परिवेश वाले एक छोटे से शहर से इस यात्रा के दौरान, एकमात्र चरित्र या शब्द जिसने मेरे मन पर गहरी छाप छोड़ी, वह था 'किसान'। उनकी कठिनाइयों, मासूमियत, भरोसेमंदता और देखभाल करने वाले स्वभाव ने मुझ पर गहरी और स्थायी छाप छोड़ी।
                             मेरा फार्म हाउस उसी धारणा की अभिव्यक्ति है। यह एक किसान के जीवन को आसान बनाने और उसे अपनी कृषि जरूरतों को पूरा करने के लिए एक लाभदायक मंच देने का मेरा ईमानदार प्रयास है।
@@ -48,4 +55,4 @@ get_header('custom-hi');
         </div>
     </section>
     <!-- End blog_wrap -->
-    <?php get_footer('custom'); ?>
+    <?php get_footer('custom-hi'); ?>

@@ -20,6 +20,9 @@ Template Name: Custom pawansir Page
         </section>
 
         <!-- start blog_wrap -->
+        <div class="image-contient mt-4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/pawan.jpeg" alt="Description of the image">
+        </div>
     <section class="blog_wrap pt_90">
         <div class="container">
             <div class="row">
@@ -30,7 +33,7 @@ Template Name: Custom pawansir Page
                             <h3 class="text-center">
                               Pawan Mangla</h3>
                             <h5 class="text-center">
-                                Managing Director</h5><br>
+                                Managing Director & Co-Founder</h5><br>
                            <p class="justify-content-center">I started my journey from a small town of PUNJAB ‘MAUR MANDI’ with a very humble background to reach my present level as the Owner of M/s. Bhagwati Steel Sales –Distributor of TATA Steel serving the industry which mainly manufacturer Agriculture equipment for My Farmer brothers.
                 During this journey from a small town with agriculture surroundings, the only character or word which left a strong impression on my mind was a ‘Farmer’. His hardships, innocence trusty and caring nature left a deep & and lasting impression on me. 
                 MERA FARM HOUSE is an expression of that impression. It is a sincere effort on my part to ease the life of a farmer and give him a profitable platform to meet his agricultural needs. 
