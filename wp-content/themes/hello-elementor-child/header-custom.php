@@ -20,7 +20,7 @@ $lastSlug = rtrim($currentUrl, '/');
         type="image/png">
     <!--====== Google Fonts ======-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
         rel="stylesheet">
     <!--====== Flaticon css ======-->
     <link rel="stylesheet"

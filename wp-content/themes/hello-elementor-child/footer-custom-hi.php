@@ -41,7 +41,7 @@
                                         <li><a href="/about-hi">हमारे बारे</a></li>
                                         <li><a href="/services-hi">सेवाएं</a></li>
                                         <li><a href="/blogs-hi">ब्लॉग</a></li>
-                                        <li><a href="/solution-hi">समाधान</a></li>
+                                        <li><a href="/solutions-hi">समाधान</a></li>
                                     </ul>
                                 </div>
                             </div>
