@@ -1,39 +1,57 @@
-<head>
-        <!--====== Required meta tags ======-->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Landscaping, Gardening, Florists, Groundskeeping">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--====== Title ======-->
-        <title>Mera Farmhouse</title>
-        <!--====== Favicon Icon ======-->
-        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico" type="image/png">
-        <!--====== Google Fonts ======-->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
-        <!--====== Flaticon css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/flaticon/flaticon_gadden.css">
-        <!--====== FontAwesome css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/fontawesome/css/all.min.css">
-        <!--====== Bootstrap css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css">
-        <!--====== magnific-popup css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/magnific-popup.css">
-        <!--====== Slick-popup css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css">
-        <!--====== Jquery UI css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.css">
-        <!--====== Nice Select css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/css/nice-select.css">
-        <!--====== Animate css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/animate.css">
-        <!--====== Default css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/default.css">
-        <!--====== Style css ======-->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/frontpage.css">
+<?php
+// Get the current URL
+$currentUrl = $_SERVER['REQUEST_URI'];
 
-    </head>
-    <!--====== Start Preloader ======-->
+// Get the last part (slug)
+$lastSlug = rtrim($currentUrl, '/');
+
+?>
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Landscaping, Gardening, Florists, Groundskeeping">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--====== Title ======-->
+    <title>Mera Farmhouse</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico"
+        type="image/png">
+    <!--====== Google Fonts ======-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+        rel="stylesheet">
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/flaticon/flaticon_gadden.css">
+    <!--====== FontAwesome css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/fontawesome/css/all.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--====== magnific-popup css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/magnific-popup.css">
+    <!--====== Slick-popup css ======-->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css">
+    <!--====== Jquery UI css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet"
+        href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/css/nice-select.css">
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/animate.css">
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/default.css">
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/frontpage.css">
+
+</head>
+<!--====== Start Preloader ======-->
 
 <div class="preloader" style="display: none;">
     <div class="loader">
@@ -57,8 +75,7 @@
 </div>
 <!--====== Search From ======-->
 <!--====== Sidebar Wrapper ======-->
-<div class="modal fade sidebar-panel-wrapper" id="sidebar-modal" style="display: block; padding-right: 15px;"
-    aria-modal="true" role="dialog">
+<div class="modal fade sidebar-panel-wrapper" id="sidebar-modal">
     <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
             <button class="close" data-dismiss="modal"><i class="far fa-times"></i></button>
@@ -67,7 +84,8 @@
                     <div class="row no-gutters">
                         <div class="col-lg-4 sidebar-widget">
                             <div class="sidebar-info-widget">
-                                <a href="/index-hi" class="footer-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png"
+                                <a href="/index-hi" class="footer-logo"><img
+                                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png"
                                         alt="ब्रांड लोगो"></a>
                                 <p>मेरा फार्महाउस विश्व स्तर पर निर्माताओं और डीलरों को एक-दूसरे से जोड़ता है और इसका
                                     उद्देश्य कृषि संबंधी उत्पादों में पारदर्शिता के माध्यम से किसानों की आर्थिक स्थिरता
@@ -126,10 +144,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -137,10 +156,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/2.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/2.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/2.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/2.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -148,10 +168,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/4.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/4.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/4.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/4.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -159,10 +180,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -170,10 +192,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/6.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/6.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/6.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/6.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -181,10 +204,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -192,10 +216,11 @@
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg" alt="गैलरी छवि">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg"
+                                        alt="गैलरी छवि">
                                     <div class="hover-overlay">
-                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg" class="img-popup icon-btn"><i
-                                                class="far fa-plus"></i></a>
+                                        <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/8.jpg"
+                                            class="img-popup icon-btn"><i class="far fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -246,13 +271,16 @@
             <div class="primary-menu">
                 <!--====== Site Branding ======-->
                 <div class="site-branding">
-                    <a href="/index-hi" class="brand-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png" alt="साइट लोगो"></a>
+                    <a href="/index-hi" class="brand-logo"><img
+                            src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png"
+                            alt="साइट लोगो"></a>
                 </div>
                 <!--====== Nav Menu ======-->
                 <div class="nav-menu">
                     <!--====== Site Branding ======-->
                     <div class="mobile-logo mb-30 d-block d-xl-none">
-                        <a href="/index-hi" class="brand-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png"
+                        <a href="/index-hi" class="brand-logo"><img
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo/logo.png"
                                 alt="साइट लोगो"></a>
                     </div>
                     <!--=== Nav Search ===-->
