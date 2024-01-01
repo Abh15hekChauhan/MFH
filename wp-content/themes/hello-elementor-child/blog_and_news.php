@@ -3,31 +3,10 @@
 Template Name: Custom Blog&News Page
 */
 get_header('custom');
-
-$blog = array(
-    'post_type' => 'blog',
-    'post_status' => 'publish',
-    'posts_per_page' => -1,
-    'orderby' => 'title',
-    'order' => 'ASC',
-);
-
-$query_blog = new WP_Query($blog);
-
-$news = array(
-    'post_type' => 'recent_news',
-    'post_status' => 'publish',
-    'posts_per_page' => -1,
-    'orderby' => 'title',
-    'order' => 'ASC',
-);
-
-$query_news = new WP_Query($news);
-// print_r($query_news);
-
 ?>
 <!--====== Start Page-title-area section ======-->
-<section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
+<section class="page-title-area text-white bg_cover"
+    style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
     <div class="container">
         <!--======  Page-title-Inner ======-->
         <div class="page-title-inner text-center">
@@ -47,10 +26,25 @@ $query_news = new WP_Query($news);
                 <div class="blog-standard-wrapper">
 
                     <?php
+                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
+                    $blog_args = array(
+                        'post_type' => 'blog',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 1,
+                        'paged' => $paged,
+                        'orderby' => 'title',
+                        'order' => 'ASC',
+                        'ignore_sticky_posts' => true, // Add this argument
+                    );
+
+                    $query_blog = new WP_Query($blog_args);
 
                     if ($query_blog->have_posts()):
-                        for ($i = 0; $i < $query_blog->post_count; $i++):
+                        while ($query_blog->have_posts()):
                             $query_blog->the_post();
+                            // Your HTML for displaying blog posts
+                            // $query_blog->the_post();
                             $title = get_the_title();
                             $author = get_the_author();
                             $description = get_the_content();
@@ -62,10 +56,10 @@ $query_news = new WP_Query($news);
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp">
                                 <div class="post-thumbnail">
-                                <img src=" <?php echo strip_tags($image); ?>" alt="Post Image"> 
+                                    <img src=" <?php echo strip_tags($image); ?>" alt="Post Image">
                                 </div>
                                 <div class="entry-content">
-                                    <h3 class="title"><a href="<?php the_permalink();?>">
+                                    <h3 class="title"><a href="<?php the_permalink(); ?>">
                                             <?php echo $title; ?>
                                         </a></h3>
                                     <div class="author">
@@ -81,35 +75,50 @@ $query_news = new WP_Query($news);
                                 </div>
                             </div>
                             <?php
-                        endfor;
+                        endwhile;
+
+                        // Pagination for Blog Posts
+                        $pagination = paginate_links(array(
+                            'total' => $query_blog->max_num_pages,
+                            'prev_text' => '<i class="far fa-angle-double-left"></i>',
+                            'next_text' => '<i class="far fa-angle-double-right"></i>',
+                            'type' => 'array', // Set type as array to get individual items
+                        ));
+
+                        if ($pagination) {
+                            echo '<ul class="gadden-pagination mb-40 wow fadeInUp text-center">';
+                            foreach ($pagination as $page) {
+                                echo '<li>' . $page . '</li>';
+                            }
+                            echo '</ul>';
+                        }
+
+
                         wp_reset_postdata();
-                    else: ?>
-                        <div class="single-blog-post-three mb-30 wow fadeInUp d-flex justify-content-center">
-                            <h5>No results</h5>
-                        </div>
-                        <?php
+                    else:
+                        echo '<p>No blog posts found</p>';
                     endif;
                     ?>
-
-
-
-                    <ul class="gadden-pagination mb-40 wow fadeInUp text-center">
-                        <li><a href="#"><i class="far fa-angle-double-left"></i></a></li>
-                        <li><a href="#">01</a></li>
-                        <li><a href="#">02</a></li>
-                        <li><a href="#">03</a></li>
-                        <li><a href="#">04</a></li>
-                        <li><a href="#"><i class="far fa-angle-double-right"></i></a></li>
-                    </ul>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="sidebar-widget-area">
-
-                    <!-- === Recent Post Widget === -->
                     <?php
+                    $news_args = array(
+                        'post_type' => 'recent_news',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 1,
+                        'paged' => $paged,
+                        'orderby' => 'title',
+                        'order' => 'ASC',
+                    );
+
+                    $query_news = new WP_Query($news_args);
+
                     if ($query_news->have_posts()):
-                        for ($i = 0; $i < $query_news->post_count; $i++):
+                        while ($query_news->have_posts()):
+                            $query_news->the_post();
+                            // Your HTML for displaying recent news
                             $query_news->the_post();
                             $title = get_the_title();
                             // Get the original publish date of the post
@@ -129,19 +138,39 @@ $query_news = new WP_Query($news);
                                     <li class="post-thumbnail-content">
                                         <?php echo $image ?>
                                         <div class="post-title-date">
-                                            <span class="posted-on"><a href="news/20230430/1.html"><?php echo $modified_publish_date ?></a></span>
-                                            <h6><a href="/blog/goat-farming/"><?php echo $title; ?></a></h6>
+                                            <span class="posted-on"><a href="news/20230430/1.html">
+                                                    <?php echo $modified_publish_date ?>
+                                                </a></span>
+                                            <h6><a href="/blog/goat-farming/">
+                                                    <?php echo $title; ?>
+                                                </a></h6>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-
                             <?php
-                        endfor;
+                        endwhile;
+
+                        // Pagination for Recent News
+                        // $pagination = paginate_links(array(
+                        //     'total' => $query_news->max_num_pages,
+                        //     'prev_text' => '<i class="far fa-angle-double-left"></i>',
+                        //     'next_text' => '<i class="far fa-angle-double-right"></i>',
+                        //     'type' => 'array', // Set type as array to get individual items
+                        // ));
+
+                        // if ($pagination) {
+                        //     echo '<ul class="gadden-pagination mb-40 wow fadeInUp text-center">';
+                        //     foreach ($pagination as $page) {
+                        //         echo '<li>' . $page . '</li>';
+                        //     }
+                        //     echo '</ul>';
+                        // }
                         wp_reset_postdata();
-                    else: ?>
+                    else:
+                        ?>
                         <div class="sidebar-widget widget-recent-post mb-40 wow fadeInUp">
-                            <h4 class="widget-title">No recent news</h4>
+                           <h4 class="widget-title">No recent news</h4>
                         </div>
                         <?php
                     endif;
