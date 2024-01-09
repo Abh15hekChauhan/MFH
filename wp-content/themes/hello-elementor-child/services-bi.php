@@ -5,8 +5,8 @@ Template Name: Custom services-bi Page
 get_header('custom-bi'); 
  
  ?>
-  <!--====== Start Page-title-area section ======-->
-        <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
+   <!--====== Start Page-title-area section ======-->
+   <section class="page-title-area text-white bg_cover" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
                 <div class="page-title-inner text-center">

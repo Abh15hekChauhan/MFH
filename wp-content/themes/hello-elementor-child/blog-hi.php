@@ -31,7 +31,7 @@ get_header('custom-hi');
                     $blog_args = array(
                         'post_type' => 'blog-hi',
                         'post_status' => 'publish',
-                        'posts_per_page' => 1,
+                        'posts_per_page' => 3,
                         'paged' => $paged,
                         'orderby' => 'title',
                         'order' => 'ASC',

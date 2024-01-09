@@ -55,7 +55,7 @@ Template Name: Custom About Page
                     <h2>Custom AI Recommendations for your farms</h2>
                 </div>
                 <div class="section-title mb-50 wow fadeInLeft">
-                    <a href="#" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.app.mera142&pcampaignid=web_share" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
                 </div>
             </div>
             <div class="col-lg-6">

@@ -20,7 +20,7 @@ $lastSlug = rtrim($currentUrl, '/');
         type="image/png">
     <!--====== Google Fonts ======-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <!--====== Flaticon css ======-->
     <link rel="stylesheet"
@@ -355,7 +355,7 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children"><a href="/solution">Solutions</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="/mentors">Experts</a>
+                            <li class="menu-item has-children"><a href="/experts">Experts</a>
 
                             </li>
                             <li class="menu-item has-children"><a href="/blogs">Blogs&News</a>
@@ -365,7 +365,7 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children"><a href="/privacy">Privacy</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="/terms">Terms</a>
+                            <li class="menu-item has-children"><a href="/term">Terms</a>
 
                             </li>
 

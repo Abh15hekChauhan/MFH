@@ -201,7 +201,7 @@ $lastSlug = rtrim($currentUrl, '/');
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-4">
+                        <!-- <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg"
@@ -212,7 +212,7 @@ $lastSlug = rtrim($currentUrl, '/');
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
@@ -303,13 +303,13 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children"><a href="/services-hi">सेवाएं</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="/solution-hi">समाधान </a>
+                            <li class="menu-item has-children"><a href="/solutions-hi">समाधान </a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="/mentors-hi">माहिर</a>
+                            <li class="menu-item has-children"><a href="/experts-hi">माहिर</a>
 
                             </li>
-                            <li class="menu-item has-children"><a href="/blogs-hi">समाचार</a>
+                            <li class="menu-item has-children"><a href="/blogs-hi">ब्लॉग</a>
 
                             </li>
                             <li class="menu-item has-children"><a href="/privacy-hi">प्राइवेसी पालिसी</a>
@@ -318,9 +318,7 @@ $lastSlug = rtrim($currentUrl, '/');
                             <li class="menu-item has-children"><a href="/terms-hi">नियम और शर्तें</a>
 
                             </li>
-
-
-
+<!-- 
                             <li class="menu-item has-children"><a href="#">भाषा<span class="dd-trigger"><i
                                             class="far fa-angle-down"></i></span></a>
                                 <ul class="sub-menu">
@@ -340,7 +338,44 @@ $lastSlug = rtrim($currentUrl, '/');
                                 <button class="btn btn-primary mt-3" id="closeButton">बंद करना</button>
                             </div>
 
-                        </ul>
+                        </ul> -->
+                        <li class="menu-item has-children"><a href="#">
+                                        भाषा<span class="dd-trigger"><i class="far fa-angle-down"></i></span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="<?php
+                                        if ($lastSlug) {
+                                            $lastSlug = rtrim($lastSlug, '-hi');
+                                            $lastSlug = rtrim($lastSlug, '-bi');
+                                            echo $lastSlug;
+                                        } else {
+                                            echo '/';
+                                        }
+                                        ?>">अंग्रेज़ी</a>
+                                        </li>
+                                        <li><a href="<?php
+                                        if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                            $lastSlug = rtrim($lastSlug, '-hi');
+                                            $lastSlug = rtrim($lastSlug, '-bi');
+                                            echo $lastSlug . '-hi';
+                                        } else {
+                                            echo '/index-hi';
+                                        }
+                                        ?>">हिंदी</a></li>
+                                        <li><a href="<?php
+                                        if ($lastSlug && $lastSlug != "index" && $lastSlug != "index-hi" && $lastSlug != "index-bi") {
+                                            $lastSlug = rtrim($lastSlug, '-hi');
+                                            $lastSlug = rtrim($lastSlug, '-bi');
+                                            echo $lastSlug . '-bi';
+                                        } else {
+                                            echo $lastSlug . '/index-bi';
+                                        }
+                                        ?>">पंजाबी</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item has-children">
+                                    <a href="https://app.mera.farm/" id="loginLink">लॉग इन करें</a>
+                                </li>
+                            </ul>
                     </nav>
                     <!--====== Menu Button ======-->
                     <div class="menu-button mt-40 d-xl-none">

@@ -364,7 +364,8 @@ get_header('home-bi');
                 <div class="author-title-box">
                     <h4>ਪਵਨ ਮੰਗਲਾ</h4>
                     <span class="posiiton">
-                        ਪ੍ਰਬੰਧ ਨਿਦੇਸ਼ਕ</span>
+                        ਪ੍ਰਬੰਧ ਨਿਦੇਸ਼ਕ ਅਤੇ ਸਹਿ-ਸੰਸਥਾਪਕ
+                            </span>
                 </div>
                 <p style="text-align: justify;">ਮੈਂ ਪੰਜਾਬ ਦੇ ਇੱਕ ਛੋਟੇ ਜਿਹੇ ਕਸਬੇ 'ਮੌੜ ਮੰਡੀ' ਤੋਂ ਐਮ/ਐਸ ਭਗਵਤੀ ਸਟੀਲ ਸੇਲਜ਼ -
                     ਟਾਟਾ ਸਟੀਲ ਦਾ ਵਿਤਰਕ ਉਦਯੋਗ ਦੇ ਮਾਲਕ ਵਜੋਂ ਆਪਣੇ ਮੌਜੂਦਾ ਪੱਧਰ 'ਤੇ ਪਹੁੰਚਣ ਲਈ ਇੱਕ ਬਹੁਤ ਹੀ ਨਿਮਰ ਪਿਛੋਕੜ ਵਾਲੇ
@@ -393,7 +394,8 @@ get_header('home-bi');
             <div class="author-content text-center">
                 <div class="author-title-box">
                     <h4>ਨਿਖਿਲ ਗਰਗ</h4>
-                    <span class="posiiton">ਸੀਈਓ ਅਤੇ ਸੰਸਥਾਪਕ</span>
+                    <span class="posiiton">ਸੀਈਓ ਅਤੇ ਸਹਿ-ਸੰਸਥਾਪਕ
+                           </span>
                 </div>
                 <p style="text-align: justify;">ਕਿਸਾਨਾਂ ਨਾਲ ਡੂੰਘਾਈ ਨਾਲ ਜੁੜੇ ਪਰਿਵਾਰ ਤੋਂ ਹੋਣ ਦੇ ਨਾਤੇ, ਮੈਂ ਉਨ੍ਹਾਂ ਦੀ
                     ਪਰੇਸ਼ਾਨੀ ਅਤੇ ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਮਹਿਸੂਸ ਕਰਦਿਆਂ ਵੱਡਾ ਹੋਇਆ ਹਾਂ ਜੋ ਮੈਨੂੰ ਕਿਸਾਨਾਂ ਨਾਲ ਬਹੁਤ ਚੰਗੀ ਤਰ੍ਹਾਂ ਜੋੜਦਾ
@@ -469,7 +471,7 @@ get_header('home-bi');
                 <div class="single-team-item-two mb-40 wow fadeInUp" data-wow-delay=".25s"
                     style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
                     <div class="member-img">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/team/jaspreet.jpg"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/jaspreet.jpg"
                             alt="ਟੀਮ ਚਿੱਤਰ">
 
                     </div>

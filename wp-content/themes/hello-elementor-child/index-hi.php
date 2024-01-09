@@ -364,7 +364,8 @@ get_header('home-hi');
                 <div class="author-title-box">
                     <h4>पवन मंगला</h4>
                     <span class="posiiton">
-                        प्रबंध निदेशक</span>
+                        प्रबंध निदेशक व सह संस्थापक
+                               </span>
                 </div>
                 <p style="text-align: justify;">मैसर्स के मालिक के रूप में अपने वर्तमान स्तर तक पहुंचने के लिए मैंने एक
                     बहुत ही साधारण पृष्ठभूमि के साथ पंजाब के एक छोटे से शहर 'मौर मंडी' से अपनी यात्रा शुरू की। भगवती
@@ -385,13 +386,14 @@ get_header('home-hi');
             style="visibility: visible; animation-name: fadeInUp;">
             <div class="author-img">
                 <!-- TODO : Add Nikhil's Image Here-->
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\gallery/nikhil sir.jpg"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/nikhil sir.jpg"
                     alt="निखिल गर्ग प्रोफ़ाइल छवि" class="nikli">
             </div>
             <div class="author-content text-center">
                 <div class="author-title-box">
                     <h4>निखिल गर्ग</h4>
-                    <span class="posiiton">सीईओ व संस्थापक</span>
+                    <span class="posiiton">सीईओ व सह संस्थापक
+                            </span>
                 </div>
                 <p style="text-align: justify;">किसानों से गहराई से जुड़े परिवार से होने के कारण, मैं उनकी परेशानियों और
                     समस्याओं को महसूस करते हुए बड़ा हुआ हूं, जो मुझे किसानों से अच्छी तरह जोड़ता है। खेती से जुड़ी
@@ -410,7 +412,7 @@ get_header('home-hi');
             style="visibility: visible; animation-name: fadeInUp;">
             <div class="author-img">
                 <!-- TODO : Add Nikhil's Image Here-->
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets\images\team/varshney.jpeg"
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/varshney.jpeg"
                     alt="निखिल गर्ग प्रोफ़ाइल छवि">
             </div>
             <div class="author-content text-center">

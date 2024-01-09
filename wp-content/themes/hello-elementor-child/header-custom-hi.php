@@ -362,11 +362,11 @@ $lastSlug = rtrim($currentUrl, '/');
                         <nav class="main-menu">
                             <ul>
                                 <li class="menu-item has-children"><a href="/index-hi">
-                                        घर</a>
+                                होम</a>
 
                                 </li>
                                 <li class="menu-item"><a href="/about-hi">
-                                        के बारे में</a></li>
+                                हमारे बारे</a></li>
                                 <li class="menu-item has-children"><a href="/services-hi">
                                         सेवाएं</a>
 
@@ -385,7 +385,7 @@ $lastSlug = rtrim($currentUrl, '/');
 
                                 </li>
                                 <li class="menu-item has-children"><a href="/terms-hi">
-                                        शर्तें</a>
+                                नियम और शर्तें</a>
 
                                 </li>
 
@@ -458,3 +458,33 @@ $lastSlug = rtrim($currentUrl, '/');
             </div>
         </div>
     </header>
+
+    </header><!--====== End Header ======-->
+    <!--====== Jquery js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/popper/popper.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.min.js"></script>
+    <!--====== Magnific js ======-->
+    <script
+        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/isotope.min.js"></script>
+    <!--====== Imagesloaded js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/imagesloaded.min.js"></script>
+    <!--====== Counterup js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery.counterup.min.js"></script>
+    <!--====== Waypoints js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery.waypoints.js"></script>
+    <!--====== Nice-select js ======-->
+    <script
+        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!--====== jquery UI js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <!--====== WOW js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/wow.min.js"></script>
+    <!--====== Main js ======-->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/theme.js"></script>

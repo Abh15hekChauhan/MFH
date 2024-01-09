@@ -202,7 +202,7 @@ $lastSlug = rtrim($currentUrl, '/');
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-4">
+                        <!-- <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/7.jpg"
@@ -213,7 +213,7 @@ $lastSlug = rtrim($currentUrl, '/');
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-2 col-md-4 col-4">
                             <div class="single-gallery-item">
                                 <div class="gallery-img">

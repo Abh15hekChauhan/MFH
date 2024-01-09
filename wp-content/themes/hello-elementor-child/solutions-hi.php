@@ -5,6 +5,40 @@ Template Name: Custom solutions-hi Page
 get_header('custom-hi'); 
  
  ?>
+ <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico"
+    type="image/png">
+<!--====== Google Fonts ======-->
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+    rel="stylesheet">
+<!--====== Flaticon css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/flaticon/flaticon_gadden.css">
+<!--====== FontAwesome css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/fonts/fontawesome/css/all.min.css">
+<!--====== Bootstrap css ======-->
+<link rel="stylesheet"
+    href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--====== magnific-popup css ======-->
+<link rel="stylesheet"
+    href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/magnific-popup.css">
+<!--====== Slick-popup css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.css">
+<!--====== Jquery UI css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.css">
+<!--====== Nice Select css ======-->
+<link rel="stylesheet"
+    href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/css/nice-select.css">
+<!--====== Animate css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/animate.css">
+<!--====== Default css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/default.css">
+<!--====== Style css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
+<!--====== Style-1 css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style-1.css">
+<!--====== main-1 css ======-->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main-1.css">
+
   <section class="page-title-area text-white bg_cover z-index-0" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/5.jpg);">
             <div class="container">
                 <!--======  Page-title-Inner ======-->
@@ -99,5 +133,142 @@ get_header('custom-hi');
         </div>
 
     </section>
+    <!-- End services_wrap -->
+
+<section class="latest_work_wrap" style="padding: 0;">
+    <div class="container">
+        <div class="row latest_work_slider">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/service/1.jpeg" alt="img">
+                    </div>
+                </div>
+            </div>
+            <!-- Add more items here -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service\2.jpeg" alt="img">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service/3.jpeg.jpg"
+                            alt="img">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service/4.jpeg" alt="img">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service/5.jpeg" alt="img">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service\6.jpeg" alt="img">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 latest_work_item">
+                <div class="work_single_item wow fadeInUp">
+                    <div class="img_wrap">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images\service/7.jpeg"
+                            alt="img">
+
+                    </div>
+                </div>
+            </div>
+</section>
+<!-- Start contact_wrap-->
+<section id="app">
+    <div class="container mt-5">
+        <center>
+            <h2 class="title contact_title">एप्लिकेशन डाउनलोड करे </h2>
+        </center>
+        <div class="row mx-auto d-flex justify-content-center">
+
+            <!--<div class="col-4">
+            <a class="mb-2" href="#" target="_blank"><img src="assets/images/appstore.png" class="img-fluid"></a>
+        </div>-->
+            <div class="col-4">
+                <a href="https://play.google.com/store/apps/details?id=com.merafarmhouse.farmerapp" target="_blank"><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" alt="play"
+                        class="img-fluid"></a>
+            </div>
+
+        </div>
+        <br><br>
+    </div>
+</section>
+    <!--====== Jquery js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-3.6.0.min.js"></script>
+<!--====== Bootstrap js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/popper/popper.min.js"></script>
+<!--====== Bootstrap js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--====== Slick js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/slick/slick.min.js"></script>
+<!--====== Magnific js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<!--====== Isotope js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/isotope.min.js"></script>
+<!--====== Imagesloaded js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/imagesloaded.min.js"></script>
+<!--====== Counterup js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery.counterup.min.js"></script>
+<!--====== Waypoints js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery.waypoints.js"></script>
+<!--====== Nice-select js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+<!--====== jquery UI js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+<!--====== WOW js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/vendor/wow.min.js"></script>
+<!--====== Main js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/theme.js"></script>
+<!--====== slick slider js ======-->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
+<script>
+    const loginLink = document.getElementById('loginLink');
+    const blur = document.getElementById('blur');
+    const popup = document.getElementById('popup');
+    const closeButton = document.getElementById('closeButton');
+
+    loginLink.addEventListener('click', () => {
+        blur.style.display = 'block';
+        popup.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', () => {
+        blur.style.display = 'none';
+        popup.style.display = 'none';
+    });
+</script>
     <!-- End services_wrap -->
     <?php get_footer('custom-hi'); ?>

@@ -128,7 +128,7 @@ get_header('custom-hi');
                             </div>
                             <div class="service-img">
                                 <a href="#" class="icon-btn"><i class="far fa-plus"></i></a>
-                                <img src="assets\images/sub-sidy.jpg" alt="सेवा छवि">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sub-sidy.jpg" alt="सेवा छवि">
                             </div>
                         </div>
                     </div>

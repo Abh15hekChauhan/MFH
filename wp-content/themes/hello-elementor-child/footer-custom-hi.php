@@ -41,12 +41,12 @@
                                         <li><a href="/about-hi">हमारे बारे</a></li>
                                         <li><a href="/services-hi">सेवाएं</a></li>
                                         <li><a href="/blogs-hi">ब्लॉग</a></li>
-                                        <li><a href="/solutions-hi">समाधान</a></li>
+                                        <li><a href="/solution-hi">समाधान</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="footer-widget footer-nav-widget mb-40 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                                <a href="#" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.app.mera142&pcampaignid=web_share" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">

@@ -381,7 +381,7 @@ $lastSlug = rtrim($currentUrl, '/');
                                 </ul>
                                     </li>
                                     <li class="menu-item has-children">
-                                        <a href="#" id="loginLink">ਲਾਗਿਨ</a>
+                                        <a href="https://app.mera.farm/" id="loginLink">ਲਾਗਿਨ</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -392,7 +392,6 @@ $lastSlug = rtrim($currentUrl, '/');
                         </div>
                         <!--====== Nav Right Item ======-->
                         <div class="nav-right-item">
-                          
                             <div class="menu-button d-xl-block d-none">
                                 <a href="/contact-bi" class="main-btn primary-btn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ਸੰਪਰਕ ਕਰੋ</font></font></a>
                             </div>

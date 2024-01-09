@@ -51,7 +51,7 @@ $image = get_the_post_thumbnail_url();
 
             <?php
 
-            $fields = get_post_meta(get_the_ID(), 'faq', true);
+            $fields = get_post_meta(get_the_ID(), 'faq-bi', true);
             $info_data = get_post_meta(get_the_ID(), 'information', false);
 
             // echo $custom_field_value;
@@ -62,8 +62,8 @@ $image = get_the_post_thumbnail_url();
             
             if ($fields) {
                 foreach ($fields as $field) {
-                    $question = $field['heading'];
-                    $answer = $field['desc'];
+                    $question = $field['heading-bi'];
+                    $answer = $field['desc-bi'];
                     ?>
 
                     <strong>

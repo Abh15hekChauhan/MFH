@@ -31,7 +31,7 @@ get_header('custom');
                     $blog_args = array(
                         'post_type' => 'blog',
                         'post_status' => 'publish',
-                        'posts_per_page' => 1,
+                        'posts_per_page' => 3,
                         'paged' => $paged,
                         'orderby' => 'title',
                         'order' => 'ASC',
@@ -107,7 +107,7 @@ get_header('custom');
                     $news_args = array(
                         'post_type' => 'recent_news',
                         'post_status' => 'publish',
-                        'posts_per_page' => 1,
+                        'posts_per_page' => 3,
                         'paged' => $paged,
                         'orderby' => 'title',
                         'order' => 'ASC',
@@ -138,7 +138,7 @@ get_header('custom');
                                     <li class="post-thumbnail-content">
                                         <?php echo $image ?>
                                         <div class="post-title-date">
-                                            <span class="posted-on"><a href="news/20230430/1.html">
+                                            <span class="posted-on"><a href="/">
                                                     <?php echo $modified_publish_date ?>
                                                 </a></span>
                                             <h6><a href="/blog/goat-farming/">
@@ -175,9 +175,7 @@ get_header('custom');
                         <?php
                     endif;
                     ?>
-
-
-                    <!--=== Banner Widget ===-->
+                <!--=== Banner Widget ===-->
                     <div class="sidebar-widget widget-banner mb-40 wow fadeInUp">
                         <div class="banner-content text-white">
                             <h3 class="title">Looking For

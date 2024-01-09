@@ -85,7 +85,7 @@ get_header('custom-hi');
                             <!--=== Map Box ===-->
                             <div class="map-box wow fadeInLeft mb-50">
                                 <!-- TODO : Embed Google Maps of MFH Office Here-->
-                                <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.745850014569!2d76.78220507511145!3d30.697426087338922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedd928f66d27%3A0x4394e2d2af9e7574!2sMera%20Farmhouse!5e0!3m2!1sen!2sin!4v1690978111321!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -128,7 +128,8 @@ get_header('custom-hi');
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-one mb-40 wow fadeInUp">
+                        <!-- <div class="single-info-item style-one mb-40 wow fadeInUp"> -->
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-1.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>मृदा परीक्षण</span>
@@ -151,12 +152,13 @@ get_header('custom-hi');
                     </div>
                     <div class="col-xl-4 col-md-6">
                         <!--====== Single Info Item ======-->
-                        <div class="single-info-item style-three mb-40 wow fadeInUp">
+                        <!-- <div class="single-info-item style-three mb-40 wow fadeInUp"> -->
+                        <div class="single-info-item style-two mb-40 wow fadeInDown">
                             <div class="shape shape-one"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shape/info-shape-2.png" alt="shape"></span></div>
                             <div class="info">
                                 <span>उत्पादों की सूची बनाएं</span>
                                 <h4 class="title">अपने उत्पादों को किसानों को दिखाना चाहते हैं?</h4>
-                                <a href="/contact-hi" class="main-btn primary-btn">उत्पादों की सूची बनाएं</a>
+                                <a href="/contact-hi" class="main-btn golden-btn">उत्पादों की सूची बनाएं</a>
                             </div>
                         </div>
                     </div>
@@ -164,10 +166,10 @@ get_header('custom-hi');
             </div>
         </section><!--====== End Info Section ======-->
         <!--====== Start Partners Section ======-->
-        <section class="partners-section">
-            <div class="container">
+        <!-- <section class="partners-section">
+            <div class="container"> -->
                 <!--=== Partners Slider ===-->
-                <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
+                <!-- <div class="partner-slider-one pt-80 pb-70 border-top-1 wow fadeInUp">
                     <div class="single-partner-item">
                         <div class="partner-img">
                             <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gallery/1.jpg" alt="Partner Image"></a>
@@ -198,7 +200,7 @@ get_header('custom-hi');
                             <a href="#"><img src="assets/images/gallery/8.jpg" alt="Partner Image"></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-        </section><!--====== End Partners Section ======-->
+        </section>   <!--====== End Partners Section ======>
           <?php get_footer('custom-hi'); ?>

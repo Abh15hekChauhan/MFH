@@ -32,7 +32,7 @@ Template Name: Custom about-hi Page
                             <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">आपके खेतों के अनुसार एआई सुझाव</font></font></h2>
                         </div>
                         <div class="section-title mb-50 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                            <a href="#" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.app.mera142&pcampaignid=web_share" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">

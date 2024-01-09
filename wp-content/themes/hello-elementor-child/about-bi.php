@@ -60,7 +60,7 @@ get_header('custom-bi');
                 </div>
                 <div class="section-title mb-50 wow fadeInLeft"
                     style="visibility: visible; animation-name: fadeInLeft;">
-                    <a href="#" target="_blank"><img
+                    <a href="https://play.google.com/store/apps/details?id=com.app.mera142&pcampaignid=web_share" target="_blank"><img
                             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/play.png"
                             class="img-fluid"></a>
                 </div>

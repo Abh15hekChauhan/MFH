@@ -26,51 +26,51 @@ get_header('custom-bi');
                 <div class="blog-standard-wrapper">
 
                     <?php
-                    $paged_bi = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-                    $blog_args_bi = array(
+                    $blog_args = array(
                         'post_type' => 'blog-bi',
                         'post_status' => 'publish',
-                        'posts_per_page' => 2,
-                        'paged' => $paged_bi,
+                        'posts_per_page' => 3,
+                        'paged' => $paged,
                         'orderby' => 'title',
                         'order' => 'ASC',
                         'ignore_sticky_posts' => true, // Add this argument
                     );
 
-                    $query_blog_bi = new WP_Query($blog_args_bi);
+                    $query_blog = new WP_Query($blog_args);
 
-                    if ($query_blog_bi->have_posts()):
-                        while ($query_blog_bi->have_posts()):
-                            $query_blog_bi->the_post();
+                    if ($query_blog->have_posts()):
+                        while ($query_blog->have_posts()):
+                            $query_blog->the_post();
                             // Your HTML for displaying blog posts
                             // $query_blog->the_post();
-                            $title_bi = get_the_title();
-                            $author_bi = get_the_author();
-                            $description_bi = get_the_content();
-                            $image_id_bi = get_post_meta(get_the_ID(), 'featured', true);
-                            $image_bi = get_the_post_thumbnail_url(get_the_ID());
+                            $title = get_the_title();
+                            $author = get_the_author();
+                            $description = get_the_content();
+                            $image_id = get_post_meta(get_the_ID(), 'featured', true);
+                            $image = get_the_post_thumbnail_url(get_the_ID());
                             // $image = preg_replace('/(width|height)="\d*"\s/', '', $image);
                             // Your HTML for each blog post goes here
                             ?>
 
                             <div class="single-blog-post-three mb-30 wow fadeInUp">
                                 <div class="post-thumbnail">
-                                    <img src=" <?php echo strip_tags($image_bi); ?>" alt="Post Image">
+                                    <img src=" <?php echo strip_tags($image); ?>" alt="Post Image">
                                 </div>
                                 <div class="entry-content">
                                     <h3 class="title"><a href="<?php the_permalink(); ?>">
-                                            <?php echo $title_bi; ?>
+                                            <?php echo $title; ?>
                                         </a></h3>
                                     <div class="author">
                                         <img src="<?php echo get_stylesheet_directory_uri(); ?>\assets\images/favicon.ico"
                                             alt="Author Image">
                                         <h6><span>By</span><a href="">
-                                                <?php echo $author_bi ?>
+                                                <?php echo $author ?>
                                             </a></h6>
                                     </div>
                                     <p>
-                                        <?php echo $description_bi ?>
+                                        <?php echo $description ?>
                                     </p>
                                 </div>
                             </div>
@@ -78,17 +78,17 @@ get_header('custom-bi');
                         endwhile;
 
                         // Pagination for Blog Posts
-                        $pagination_bi = paginate_links(array(
-                            'total' => $query_blog_bi->max_num_pages,
+                        $pagination = paginate_links(array(
+                            'total' => $query_blog->max_num_pages,
                             'prev_text' => '<i class="far fa-angle-double-left"></i>',
                             'next_text' => '<i class="far fa-angle-double-right"></i>',
                             'type' => 'array', // Set type as array to get individual items
                         ));
 
-                        if ($pagination_bi) {
+                        if ($pagination) {
                             echo '<ul class="gadden-pagination mb-40 wow fadeInUp text-center">';
-                            foreach ($pagination_bi as $page_bi) {
-                                echo '<li>' . $page_bi . '</li>';
+                            foreach ($pagination as $page) {
+                                echo '<li>' . $page . '</li>';
                             }
                             echo '</ul>';
                         }
